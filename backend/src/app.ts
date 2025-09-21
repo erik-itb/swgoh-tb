@@ -109,14 +109,36 @@ app.use((req, res, next) => {
 app.use('/api', apiRoutes);
 
 // Health check (outside of rate limiting)
-app.get('/health', (req, res) => {
-  res.json({
-    success: true,
-    message: 'Server is healthy',
-    timestamp: new Date().toISOString(),
-    uptime: process.uptime(),
-    environment: env.NODE_ENV
-  });
+app.get('/health', async (req, res) => {
+  try {
+    // Import here to avoid circular dependency issues
+    const { PrismaClient } = await import('@prisma/client');
+    const prisma = new PrismaClient();
+
+    // Test database connection
+    await prisma.$queryRaw`SELECT 1`;
+    await prisma.$disconnect();
+
+    res.json({
+      success: true,
+      message: 'Server is healthy',
+      timestamp: new Date().toISOString(),
+      uptime: process.uptime(),
+      environment: env.NODE_ENV,
+      database: 'connected',
+      version: '1.0.0'
+    });
+  } catch (error) {
+    res.status(503).json({
+      success: false,
+      message: 'Server is unhealthy',
+      timestamp: new Date().toISOString(),
+      uptime: process.uptime(),
+      environment: env.NODE_ENV,
+      database: 'disconnected',
+      error: error instanceof Error ? error.message : 'Database connection failed'
+    });
+  }
 });
 
 // Root endpoint
