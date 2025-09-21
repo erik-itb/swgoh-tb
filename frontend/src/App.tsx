@@ -9,6 +9,7 @@ import { Squads } from './pages/Squads';
 import { SquadDetail } from './pages/SquadDetail';
 import { SquadCreate } from './pages/SquadCreate';
 import { MissionDetail } from './pages/MissionDetail';
+import { Admin } from './pages/Admin';
 import { useAuthStore } from './store/authStore';
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Route path="/squads/:id/edit" element={<SquadCreate />} />
           <Route path="/mission/:tbSlug/:phaseId/:planetId/:missionId" element={<MissionDetail />} />
           <Route path="/mission/:tbSlug/:phaseId/:planetId/:missionId/squads" element={<MissionDetail />} />
+          <Route path="/admin" element={<Admin />} />
         </Routes>
       </main>
     </div>
