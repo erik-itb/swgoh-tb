@@ -7,21 +7,22 @@ This guide walks you through deploying the SWGOH Rise of the Empire TB Tracker t
 ### Server Requirements
 - **Minimum**: 1 CPU, 2GB RAM, 25GB SSD
 - **Recommended**: 2 CPU, 4GB RAM, 50GB SSD
-- **Operating System**: Ubuntu 20.04 LTS or later
+- **Operating System**: Ubuntu 24.04 LTS (Noble Numbat)
 
 ### Software Requirements
-- Docker Engine 20.10+
-- Docker Compose 2.0+
-- Git
+- Docker Engine 24.0+
+- Docker Compose 2.20+
+- Git 2.34+
 - SSL Certificate (optional but recommended)
 
 ## Initial Server Setup
 
 ### 1. Create Digital Ocean Droplet
 ```bash
-# Create a new Ubuntu 20.04 droplet via Digital Ocean dashboard
+# Create a new Ubuntu 24.04 LTS droplet via Digital Ocean dashboard
 # Choose appropriate size based on requirements above
 # Enable monitoring and backups (recommended)
+# Ubuntu 24.04 LTS is supported until April 2034
 ```
 
 ### 2. Connect to Server
@@ -31,27 +32,48 @@ ssh root@your_server_ip
 
 ### 3. Update System
 ```bash
+# Update package index and upgrade system
 apt update && apt upgrade -y
-apt install -y git curl wget htop
+
+# Install essential packages
+apt install -y git curl wget htop ca-certificates gnupg lsb-release
+
+# Install additional useful packages for Ubuntu 24.04
+apt install -y ufw fail2ban unattended-upgrades
 ```
 
-### 4. Install Docker
+### 4. Install Docker (Ubuntu 24.04 Optimized)
 ```bash
-# Install Docker
-curl -fsSL https://get.docker.com -o get-docker.sh
-sh get-docker.sh
+# Remove any old Docker installations
+apt remove -y docker docker-engine docker.io containerd runc
 
-# Install Docker Compose
-curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-chmod +x /usr/local/bin/docker-compose
+# Add Docker's official GPG key
+install -m 0755 -d /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+chmod a+r /etc/apt/keyrings/docker.gpg
 
-# Enable Docker service
+# Add Docker repository for Ubuntu 24.04
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+# Update package index with Docker repo
+apt update
+
+# Install Docker Engine, CLI, and Docker Compose plugin
+apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+# Enable and start Docker service
 systemctl enable docker
 systemctl start docker
 
-# Verify installation
+# Verify installation (Ubuntu 24.04 uses Docker Compose plugin)
 docker --version
-docker-compose --version
+docker compose version
+
+# Test Docker installation
+docker run hello-world
 ```
 
 ### 5. Create Application User (Recommended)
@@ -120,11 +142,11 @@ chmod +x deploy.sh
 
 ### 4. Verify Deployment
 ```bash
-# Check service status
-docker-compose -f docker-compose.prod.yml ps
+# Check service status (Ubuntu 24.04 uses Docker Compose plugin)
+docker compose -f docker-compose.prod.yml ps
 
 # View logs
-docker-compose -f docker-compose.prod.yml logs -f
+docker compose -f docker-compose.prod.yml logs -f
 
 # Test application
 curl http://localhost/health
@@ -133,19 +155,23 @@ curl http://localhost/api/health
 
 ## SSL/HTTPS Setup (Recommended)
 
-### Option 1: Let's Encrypt with Certbot
+### Option 1: Let's Encrypt with Certbot (Ubuntu 24.04)
 ```bash
-# Install Certbot
+# Install Certbot (updated for Ubuntu 24.04)
 sudo apt install -y certbot python3-certbot-nginx
 
+# Install snap certbot (alternative method for Ubuntu 24.04)
+# sudo snap install --classic certbot
+# sudo ln -s /snap/bin/certbot /usr/bin/certbot
+
 # Stop nginx temporarily
-docker-compose -f docker-compose.prod.yml stop frontend
+docker compose -f docker-compose.prod.yml stop frontend
 
 # Generate certificate
 sudo certbot certonly --standalone -d yourdomain.com
 
 # Start nginx again
-docker-compose -f docker-compose.prod.yml start frontend
+docker compose -f docker-compose.prod.yml start frontend
 ```
 
 ### Option 2: Cloudflare (Recommended for simplicity)
@@ -162,22 +188,22 @@ docker-compose -f docker-compose.prod.yml start frontend
 ./deploy.sh --status
 
 # Individual service health
-docker-compose -f docker-compose.prod.yml exec backend curl http://localhost:3000/health
-docker-compose -f docker-compose.prod.yml exec frontend curl http://localhost:80/health
+docker compose -f docker-compose.prod.yml exec backend curl http://localhost:3000/health
+docker compose -f docker-compose.prod.yml exec frontend curl http://localhost:80/health
 ```
 
 ### Log Management
 ```bash
 # View real-time logs
-docker-compose -f docker-compose.prod.yml logs -f
+docker compose -f docker-compose.prod.yml logs -f
 
 # View specific service logs
-docker-compose -f docker-compose.prod.yml logs -f backend
-docker-compose -f docker-compose.prod.yml logs -f frontend
-docker-compose -f docker-compose.prod.yml logs -f postgres
+docker compose -f docker-compose.prod.yml logs -f backend
+docker compose -f docker-compose.prod.yml logs -f frontend
+docker compose -f docker-compose.prod.yml logs -f postgres
 
 # Clear logs (if they get too large)
-docker-compose -f docker-compose.prod.yml logs --no-log-prefix | head -n 0
+docker compose -f docker-compose.prod.yml logs --no-log-prefix | head -n 0
 ```
 
 ### Database Management
@@ -186,28 +212,28 @@ docker-compose -f docker-compose.prod.yml logs --no-log-prefix | head -n 0
 ```bash
 # Manual backup
 mkdir -p backups
-docker-compose -f docker-compose.prod.yml exec postgres pg_dump -U postgres swgoh_tb_prod > backups/backup-$(date +%Y%m%d_%H%M%S).sql
+docker compose -f docker-compose.prod.yml exec postgres pg_dump -U postgres swgoh_tb_prod > backups/backup-$(date +%Y%m%d_%H%M%S).sql
 ```
 
 #### Restore Database
 ```bash
 # Stop application
-docker-compose -f docker-compose.prod.yml stop backend frontend
+docker compose -f docker-compose.prod.yml stop backend frontend
 
 # Restore from backup
-docker-compose -f docker-compose.prod.yml exec -T postgres psql -U postgres swgoh_tb_prod < backups/backup-YYYYMMDD_HHMMSS.sql
+docker compose -f docker-compose.prod.yml exec -T postgres psql -U postgres swgoh_tb_prod < backups/backup-YYYYMMDD_HHMMSS.sql
 
 # Start application
-docker-compose -f docker-compose.prod.yml start backend frontend
+docker compose -f docker-compose.prod.yml start backend frontend
 ```
 
 #### Database Migrations
 ```bash
 # Run new migrations
-docker-compose -f docker-compose.prod.yml exec backend npx prisma migrate deploy
+docker compose -f docker-compose.prod.yml exec backend npx prisma migrate deploy
 
 # Reset database (DANGER - will delete all data)
-docker-compose -f docker-compose.prod.yml exec backend npx prisma migrate reset --force
+docker compose -f docker-compose.prod.yml exec backend npx prisma migrate reset --force
 ```
 
 ## Updates and Maintenance
@@ -249,7 +275,7 @@ docker volume prune -f
 
 ### Small VPS Optimization (1-2GB RAM)
 ```bash
-# Add swap file if not present
+# Add swap file if not present (Ubuntu 24.04 optimized)
 sudo fallocate -l 2G /swapfile
 sudo chmod 600 /swapfile
 sudo mkswap /swapfile
@@ -257,6 +283,34 @@ sudo swapon /swapfile
 
 # Make permanent
 echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+
+# Optimize swappiness for Ubuntu 24.04 (less aggressive swapping)
+echo 'vm.swappiness=10' | sudo tee -a /etc/sysctl.conf
+sudo sysctl vm.swappiness=10
+```
+
+### Ubuntu 24.04 Specific Optimizations
+```bash
+# Enable memory compression (zram) for better memory utilization
+sudo apt install -y zram-config
+
+# Configure automatic memory management
+sudo systemctl enable zramswap
+
+# Optimize network settings for web applications
+echo 'net.core.somaxconn = 1024' | sudo tee -a /etc/sysctl.conf
+echo 'net.ipv4.tcp_max_syn_backlog = 2048' | sudo tee -a /etc/sysctl.conf
+echo 'net.ipv4.ip_local_port_range = 1024 65535' | sudo tee -a /etc/sysctl.conf
+sudo sysctl -p
+
+# Enable UFW firewall with optimized rules
+sudo ufw --force reset
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw allow ssh
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
+sudo ufw --force enable
 ```
 
 ### PostgreSQL Tuning
@@ -323,7 +377,7 @@ docker-compose -f docker-compose.prod.yml up -d
 #### Complete Reset
 ```bash
 # DANGER: This will delete all data
-docker-compose -f docker-compose.prod.yml down -v
+docker compose -f docker-compose.prod.yml down -v
 docker system prune -af
 ./deploy.sh --skip-backup
 ```
@@ -331,7 +385,7 @@ docker system prune -af
 #### Rollback to Previous Version
 ```bash
 # Stop current version
-docker-compose -f docker-compose.prod.yml down
+docker compose -f docker-compose.prod.yml down
 
 # Checkout previous version
 git checkout HEAD~1

@@ -43,9 +43,15 @@ check_prerequisites() {
         exit 1
     fi
 
-    # Check if Docker Compose is installed
-    if ! command -v docker-compose &> /dev/null; then
-        log_error "Docker Compose is not installed. Please install Docker Compose first."
+    # Check if Docker Compose is available (plugin or standalone)
+    if docker compose version &> /dev/null; then
+        log_info "Using Docker Compose plugin (recommended for Ubuntu 24.04+)"
+        DOCKER_COMPOSE_CMD="docker compose"
+    elif command -v docker-compose &> /dev/null; then
+        log_info "Using Docker Compose standalone (legacy)"
+        DOCKER_COMPOSE_CMD="docker-compose"
+    else
+        log_error "Docker Compose is not installed. Please install Docker Compose or Docker Compose plugin."
         exit 1
     fi
 
@@ -77,8 +83,8 @@ backup_database() {
     BACKUP_FILE="./backups/backup-$(date +%Y%m%d_%H%M%S).sql"
 
     # Check if database container is running
-    if docker-compose -f "$COMPOSE_FILE" ps postgres | grep -q "Up"; then
-        docker-compose -f "$COMPOSE_FILE" exec -T postgres pg_dump -U "$POSTGRES_USER" "$POSTGRES_DB" > "$BACKUP_FILE"
+    if $DOCKER_COMPOSE_CMD -f "$COMPOSE_FILE" ps postgres | grep -q "Up"; then
+        $DOCKER_COMPOSE_CMD -f "$COMPOSE_FILE" exec -T postgres pg_dump -U "$POSTGRES_USER" "$POSTGRES_DB" > "$BACKUP_FILE"
         log_success "Database backup created: $BACKUP_FILE"
     else
         log_warning "Database container not running. Skipping backup."
@@ -90,15 +96,15 @@ deploy_application() {
 
     # Pull latest images and build
     log_info "Building application images..."
-    docker-compose -f "$COMPOSE_FILE" build --no-cache
+    $DOCKER_COMPOSE_CMD -f "$COMPOSE_FILE" build --no-cache
 
     # Stop existing containers
     log_info "Stopping existing containers..."
-    docker-compose -f "$COMPOSE_FILE" down
+    $DOCKER_COMPOSE_CMD -f "$COMPOSE_FILE" down
 
     # Start services with health checks
     log_info "Starting services..."
-    docker-compose -f "$COMPOSE_FILE" up -d
+    $DOCKER_COMPOSE_CMD -f "$COMPOSE_FILE" up -d
 
     # Wait for services to be healthy
     log_info "Waiting for services to be healthy..."
@@ -107,7 +113,7 @@ deploy_application() {
     attempt=1
 
     while [ $attempt -le $max_attempts ]; do
-        if docker-compose -f "$COMPOSE_FILE" ps | grep -q "unhealthy"; then
+        if $DOCKER_COMPOSE_CMD -f "$COMPOSE_FILE" ps | grep -q "unhealthy"; then
             log_warning "Some services are still starting... (attempt $attempt/$max_attempts)"
             sleep 10
             ((attempt++))
@@ -117,7 +123,7 @@ deploy_application() {
     done
 
     if [ $attempt -gt $max_attempts ]; then
-        log_error "Services failed to start properly. Check logs with: docker-compose -f $COMPOSE_FILE logs"
+        log_error "Services failed to start properly. Check logs with: $DOCKER_COMPOSE_CMD -f $COMPOSE_FILE logs"
         exit 1
     fi
 
@@ -131,14 +137,14 @@ run_database_migrations() {
     sleep 5
 
     # Run Prisma migrations
-    docker-compose -f "$COMPOSE_FILE" exec backend npx prisma migrate deploy
+    $DOCKER_COMPOSE_CMD -f "$COMPOSE_FILE" exec backend npx prisma migrate deploy
 
     # Optionally seed the database (only on first deployment)
     read -p "Do you want to seed the database with sample data? (y/N): " -n 1 -r
     echo
     if [[ $REPLY =~ ^[Yy]$ ]]; then
         log_info "Seeding database..."
-        docker-compose -f "$COMPOSE_FILE" exec backend npm run db:seed
+        $DOCKER_COMPOSE_CMD -f "$COMPOSE_FILE" exec backend npm run db:seed
         log_success "Database seeded successfully."
     fi
 }
@@ -162,7 +168,7 @@ cleanup() {
 show_status() {
     log_info "Deployment Status:"
     echo
-    docker-compose -f "$COMPOSE_FILE" ps
+    $DOCKER_COMPOSE_CMD -f "$COMPOSE_FILE" ps
     echo
 
     log_info "Application URLs:"
@@ -171,10 +177,10 @@ show_status() {
     echo
 
     log_info "Useful commands:"
-    echo "  View logs: docker-compose -f $COMPOSE_FILE logs -f"
-    echo "  Restart services: docker-compose -f $COMPOSE_FILE restart"
-    echo "  Stop services: docker-compose -f $COMPOSE_FILE down"
-    echo "  View service status: docker-compose -f $COMPOSE_FILE ps"
+    echo "  View logs: $DOCKER_COMPOSE_CMD -f $COMPOSE_FILE logs -f"
+    echo "  Restart services: $DOCKER_COMPOSE_CMD -f $COMPOSE_FILE restart"
+    echo "  Stop services: $DOCKER_COMPOSE_CMD -f $COMPOSE_FILE down"
+    echo "  View service status: $DOCKER_COMPOSE_CMD -f $COMPOSE_FILE ps"
 }
 
 # Main deployment process

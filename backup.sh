@@ -11,6 +11,16 @@ RETENTION_DAYS=7
 COMPOSE_FILE="docker-compose.prod.yml"
 DATE=$(date +%Y%m%d_%H%M%S)
 
+# Detect Docker Compose command (plugin vs standalone)
+if docker compose version &> /dev/null; then
+    DOCKER_COMPOSE_CMD="docker compose"
+elif command -v docker-compose &> /dev/null; then
+    DOCKER_COMPOSE_CMD="docker-compose"
+else
+    log_error "Docker Compose is not available"
+    exit 1
+fi
+
 # Colors for output
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
@@ -44,8 +54,8 @@ fi
 log_info "Creating database backup..."
 BACKUP_FILE="$BACKUP_DIR/database_backup_$DATE.sql"
 
-if docker-compose -f "$COMPOSE_FILE" ps postgres | grep -q "Up"; then
-    docker-compose -f "$COMPOSE_FILE" exec -T postgres pg_dump \
+if $DOCKER_COMPOSE_CMD -f "$COMPOSE_FILE" ps postgres | grep -q "Up"; then
+    $DOCKER_COMPOSE_CMD -f "$COMPOSE_FILE" exec -T postgres pg_dump \
         -U "${POSTGRES_USER:-postgres}" \
         "${POSTGRES_DB:-swgoh_tb_prod}" > "$BACKUP_FILE"
 
