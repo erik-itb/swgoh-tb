@@ -23,7 +23,7 @@ export const errorHandler = (
     switch (error.code) {
       case 'P2002':
         // Unique constraint violation
-        const field = error.meta?.target?.[0] || 'field';
+        const field = (error.meta?.target as string[])?.[0] || 'field';
         return res.status(409).json({
           success: false,
           error: `${field} already exists`

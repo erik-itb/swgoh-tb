@@ -28,7 +28,7 @@ export const auditMiddleware = (tableName: string) => {
     // Override res.end to log after response
     const originalEnd = res.end;
     res.end = function(chunk?: any, encoding?: any) {
-      originalEnd.call(this, chunk, encoding);
+      const result = originalEnd.call(this, chunk, encoding);
 
       // Only log successful operations
       if (res.statusCode >= 200 && res.statusCode < 300) {
@@ -36,6 +36,8 @@ export const auditMiddleware = (tableName: string) => {
           logger.error('Failed to create audit log', { error: error.message });
         });
       }
+
+      return result;
     };
 
     next();

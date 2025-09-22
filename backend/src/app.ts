@@ -1,5 +1,5 @@
 // Fix BigInt serialization issue
-BigInt.prototype.toJSON = function() {
+(BigInt.prototype as any).toJSON = function() {
   return this.toString();
 };
 
