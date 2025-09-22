@@ -1,5 +1,5 @@
 import request from 'supertest';
-import { app } from '../src/app';
+import app from '../src/app';
 import { prisma } from './setup';
 import bcrypt from 'bcryptjs';
 import { UserRole } from '@prisma/client';

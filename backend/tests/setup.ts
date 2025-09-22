@@ -18,7 +18,7 @@ beforeAll(async () => {
 afterEach(async () => {
   // Clean up all tables in correct order (reverse of foreign key dependencies)
   await prisma.auditLog.deleteMany();
-  await prisma.missionRecommendation.deleteMany();
+  await prisma.missionSquadRecommendation.deleteMany();
   await prisma.squadUnit.deleteMany();
   await prisma.squad.deleteMany();
   await prisma.combatMission.deleteMany();
