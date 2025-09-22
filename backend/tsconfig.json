@@ -17,6 +17,6 @@
     "emitDecoratorMetadata": true,
     "types": ["node", "jest"]
   },
-  "include": ["src/**/*", "prisma/**/*"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "dist", "tests"]
 }

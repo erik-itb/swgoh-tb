@@ -1,3 +1,8 @@
+// Fix BigInt serialization issue
+BigInt.prototype.toJSON = function() {
+  return this.toString();
+};
+
 import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
