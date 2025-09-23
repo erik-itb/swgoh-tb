@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { assetService } from '../../services/asset.service';
 
 export interface Unit {
   id: number;
@@ -45,6 +46,13 @@ export const UnitPortrait: React.FC<UnitPortraitProps> = ({
 }) => {
   const [imageError, setImageError] = useState(false);
   const [imageLoading, setImageLoading] = useState(true);
+  const [assetUrl, setAssetUrl] = useState<string | null>(null);
+  const [progressiveUrls, setProgressiveUrls] = useState<{
+    placeholder: string;
+    small: string;
+    medium: string;
+    large: string;
+  } | null>(null);
 
   const handleImageError = () => {
     setImageError(true);
@@ -53,6 +61,51 @@ export const UnitPortrait: React.FC<UnitPortraitProps> = ({
 
   const handleImageLoad = () => {
     setImageLoading(false);
+  };
+
+  // Load assets using our asset service
+  useEffect(() => {
+    if (!unit?.gameId) {
+      setAssetUrl(null);
+      setProgressiveUrls(null);
+      return;
+    }
+
+    const loadAssets = async () => {
+      try {
+        // Load portrait with size preference
+        const portraitUrl = await assetService.getUnitPortrait(unit.gameId, size);
+        setAssetUrl(portraitUrl);
+
+        // Load progressive URLs for better UX
+        const progressive = await assetService.getProgressiveImageUrls(unit.gameId);
+        setProgressiveUrls(progressive);
+      } catch (error) {
+        console.error('Error loading unit assets:', error);
+        setImageError(true);
+      }
+    };
+
+    loadAssets();
+  }, [unit?.gameId, size]);
+
+  // Determine the best image URL to use
+  const getImageUrl = () => {
+    if (imageError) {
+      return assetService.getFallbackPortrait();
+    }
+
+    // Use progressive loading if available
+    if (progressiveUrls) {
+      switch (size) {
+        case 'sm': return progressiveUrls.small;
+        case 'lg': case 'xl': return progressiveUrls.large;
+        default: return progressiveUrls.medium;
+      }
+    }
+
+    // Fallback to asset service URL or unit.portraitUrl
+    return assetUrl || unit?.portraitUrl || assetService.getFallbackPortrait();
   };
 
   const getAlignmentColor = (alignment: string) => {
@@ -99,11 +152,12 @@ export const UnitPortrait: React.FC<UnitPortraitProps> = ({
               
               {/* Unit portrait */}
               <img
-                src={imageError ? '/assets/fallback/character-portrait.png' : unit.portraitUrl}
+                src={getImageUrl()}
                 alt={unit.name}
                 className={`w-full h-full object-cover ${imageLoading ? 'opacity-0' : 'opacity-100'} transition-opacity`}
                 onError={handleImageError}
                 onLoad={handleImageLoad}
+                loading="lazy"
               />
               
               {/* Unit type indicator */}
