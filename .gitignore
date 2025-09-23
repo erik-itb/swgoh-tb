@@ -424,3 +424,16 @@ api-docs/
 
 # Webpack Bundle Analyzer
 webpack-bundle-analyzer-report.html
+
+# SWGoH Asset Management
+tools/swgoh-ae2/
+assets/units/
+assets/planets/
+data/gamedata/units.json
+data/gamedata/units_pve.json
+data/gamedata/Loc_ENG_US.txt.json
+*.png
+*.jpg
+*.jpeg
+*.webp
+tools/asset-processor/node_modules/
