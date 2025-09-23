@@ -10,6 +10,7 @@ import { SquadDetail } from './pages/SquadDetail';
 import { SquadCreate } from './pages/SquadCreate';
 import { MissionDetail } from './pages/MissionDetail';
 import { Admin } from './pages/Admin';
+import { SquadTest } from './pages/SquadTest';
 import { useAuthStore } from './store/authStore';
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Route path="/mission/:tbSlug/:phaseId/:planetId/:missionId" element={<MissionDetail />} />
           <Route path="/mission/:tbSlug/:phaseId/:planetId/:missionId/squads" element={<MissionDetail />} />
           <Route path="/admin" element={<Admin />} />
+          <Route path="/squad-test" element={<SquadTest />} />
         </Routes>
       </main>
     </div>

@@ -328,5 +328,62 @@ model AuditLog {
   @@map("audit_logs")
 }
 
+// Asset Management
+model AssetMetadata {
+  id             Int                @id @default(autoincrement())
+  assetType      AssetType          @map("asset_type")
+  gameId         String             @map("game_id") @db.VarChar(100)
+  filePath       String             @map("file_path") @db.VarChar(500)
+  fileSize       Int?               @map("file_size")
+  lastUpdated    DateTime           @default(now()) @map("last_updated") @db.Timestamptz
+  sourceVersion  String?            @map("source_version") @db.VarChar(100)
+  isActive       Boolean            @default(true) @map("is_active")
+  format         AssetFormat        @default(WEBP)
+  sizeVariant    AssetSizeVariant   @default(MD) @map("size_variant")
+  width          Int?
+  height         Int?
+  checksumMd5    String?            @map("checksum_md5") @db.VarChar(32)
+  downloadSource AssetSource        @default(SWGOH_AE2) @map("download_source")
+  createdAt      DateTime           @default(now()) @map("created_at") @db.Timestamptz
+
+  @@unique([assetType, gameId, sizeVariant])
+  @@index([assetType, gameId, isActive])
+  @@index([lastUpdated])
+  @@map("asset_metadata")
+}
+
+enum AssetType {
+  UNIT_PORTRAIT
+  UNIT_ICON
+  PLANET_BACKGROUND
+  PLANET_ICON
+
+  @@map("asset_type")
+}
+
+enum AssetFormat {
+  PNG
+  JPEG
+  WEBP
+
+  @@map("asset_format")
+}
+
+enum AssetSizeVariant {
+  SM  // Small
+  MD  // Medium
+  LG  // Large
+
+  @@map("asset_size_variant")
+}
+
+enum AssetSource {
+  SWGOH_AE2
+  MANUAL_UPLOAD
+  THIRD_PARTY
+
+  @@map("asset_source")
+}
+
 // Create performance indexes
 // Note: These are handled in migration files

@@ -1,0 +1,17 @@
+{
+  "name": "swgoh-asset-processor",
+  "version": "1.0.0",
+  "description": "Asset processing tools for SWGoH game assets",
+  "type": "module",
+  "scripts": {
+    "process-assets": "node process-assets.js",
+    "download-assets": "node download-assets.js",
+    "validate-assets": "node validate-assets.js"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5",
+    "axios": "^1.7.7",
+    "fs-extra": "^11.2.0",
+    "chalk": "^5.3.0"
+  }
+}

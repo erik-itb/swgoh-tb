@@ -3,6 +3,7 @@ import authRoutes from './auth.routes.js';
 import tbRoutes from './tb.routes.js';
 import squadRoutes from './squad.routes.js';
 import adminRoutes from './admin.routes.js';
+import unitRoutes from './unit.routes.js';
 
 const router = Router();
 
@@ -10,6 +11,7 @@ const router = Router();
 router.use('/auth', authRoutes);
 router.use('/tb', tbRoutes);
 router.use('/squads', squadRoutes);
+router.use('/units', unitRoutes);
 router.use('/admin', adminRoutes);
 
 // Health check endpoint
