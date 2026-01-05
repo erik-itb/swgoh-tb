@@ -1,5 +1,5 @@
 {
-  "version": "0.37.0:LbGZ95TUS-W34i-fIm6DIA",
+  "version": "0.38.1:So2YPkkwQNi9kRKsi4dIwQ",
   "data": [
     {
       "conflictZoneDefinition": [
@@ -102,7 +102,8 @@
                   "id": "phase01_conflict01",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -168,7 +169,8 @@
                   "id": "phase01_conflict01",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -234,7 +236,8 @@
                   "id": "phase02_conflict01",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -300,14 +303,16 @@
                   "id": "phase02_conflict01",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 },
                 {
                   "type": 61,
                   "id": "phase02_conflict02",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 2,
@@ -373,7 +378,8 @@
                   "id": "phase02_conflict02",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -439,7 +445,8 @@
                   "id": "phase03_conflict01",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 2,
@@ -505,7 +512,8 @@
                   "id": "phase03_conflict02",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 2,
@@ -571,7 +579,8 @@
                   "id": "phase03_conflict03",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 2,
@@ -637,7 +646,8 @@
                   "id": "phase04_conflict01",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 2,
@@ -703,7 +713,8 @@
                   "id": "phase04_conflict02",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 2,
@@ -769,7 +780,8 @@
                   "id": "phase04_conflict03",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 2,
@@ -835,7 +847,8 @@
                   "id": "phase05_conflict01",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 2,
@@ -901,7 +914,8 @@
                   "id": "phase05_conflict02",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 2,
@@ -967,7 +981,8 @@
                   "id": "phase05_conflict03",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 2,
@@ -1654,7 +1669,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -1684,14 +1700,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -1721,14 +1739,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -1758,7 +1778,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -1957,7 +1978,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -1987,14 +2009,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -2024,14 +2048,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -2061,7 +2087,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -2260,7 +2287,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -2290,14 +2318,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -2327,14 +2357,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -2364,7 +2396,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -2563,7 +2596,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -2593,14 +2627,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -2630,14 +2666,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -2667,7 +2705,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -2866,7 +2905,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -2896,14 +2936,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -2933,14 +2975,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -2970,7 +3014,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -3164,7 +3209,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -3189,14 +3235,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -3221,14 +3269,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -3253,7 +3303,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -3290,7 +3341,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -3327,14 +3379,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -3371,14 +3425,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -3415,7 +3471,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -3445,7 +3502,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -3475,14 +3533,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -3512,14 +3572,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -3549,7 +3611,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -3579,7 +3642,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -3609,14 +3673,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -3646,14 +3712,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -3683,7 +3751,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -3882,7 +3951,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -3912,14 +3982,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -3949,14 +4021,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -3986,7 +4060,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -4185,7 +4260,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -4215,14 +4291,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -4252,14 +4330,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -4289,7 +4369,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -4488,7 +4569,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -4518,14 +4600,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -4555,14 +4639,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -4592,7 +4678,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -4791,7 +4878,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -4821,14 +4909,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -4858,14 +4948,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -4895,7 +4987,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -5092,7 +5185,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -5120,14 +5214,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -5155,14 +5251,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -5190,7 +5288,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -5389,7 +5488,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -5419,14 +5519,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -5456,14 +5558,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -5493,7 +5597,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -5687,7 +5792,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -5712,14 +5818,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -5744,14 +5852,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -5776,7 +5886,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -5806,7 +5917,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -5836,14 +5948,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -5873,14 +5987,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -5910,7 +6026,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -6107,7 +6224,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -6135,14 +6253,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -6170,14 +6290,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -6205,7 +6327,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -6402,7 +6525,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -6430,14 +6554,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -6465,14 +6591,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -6500,7 +6628,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -12284,7 +12413,8 @@
                   "id": "hoth_empire_phase01_conflict01",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -12350,7 +12480,8 @@
                   "id": "hoth_empire_phase01_conflict02",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -12416,7 +12547,8 @@
                   "id": "hoth_empire_phase02_conflict01",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -12482,14 +12614,16 @@
                   "id": "hoth_empire_phase02_conflict01",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 },
                 {
                   "type": 61,
                   "id": "hoth_empire_phase02_conflict02",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 2,
@@ -12555,7 +12689,8 @@
                   "id": "hoth_empire_phase02_conflict02",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -12621,7 +12756,8 @@
                   "id": "hoth_empire_phase03_conflict01",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 2,
@@ -12687,7 +12823,8 @@
                   "id": "hoth_empire_phase03_conflict02",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 2,
@@ -12753,7 +12890,8 @@
                   "id": "hoth_empire_phase03_conflict03",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 2,
@@ -12819,7 +12957,8 @@
                   "id": "hoth_empire_phase04_conflict01",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 2,
@@ -12885,7 +13024,8 @@
                   "id": "hoth_empire_phase04_conflict02",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 2,
@@ -12951,7 +13091,8 @@
                   "id": "hoth_empire_phase04_conflict03",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 2,
@@ -13017,7 +13158,8 @@
                   "id": "hoth_empire_phase05_conflict01",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 2,
@@ -13083,7 +13225,8 @@
                   "id": "hoth_empire_phase05_conflict02",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 2,
@@ -13149,7 +13292,8 @@
                   "id": "hoth_empire_phase05_conflict03",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 2,
@@ -13860,7 +14004,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -13890,14 +14035,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -13927,14 +14074,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -13964,7 +14113,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -14161,7 +14311,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -14189,14 +14340,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -14224,14 +14377,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -14259,7 +14414,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -14456,7 +14612,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -14484,14 +14641,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -14519,14 +14678,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -14554,7 +14715,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -14753,7 +14915,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -14783,14 +14946,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -14820,14 +14985,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -14857,7 +15024,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -15056,7 +15224,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -15086,14 +15255,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -15123,14 +15294,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -15160,7 +15333,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -15190,7 +15364,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -15220,28 +15395,32 @@
                     "id": "hoth_empire_phase03_conflict01_recon01",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "hoth_empire_phase03_conflict01_recon01",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 62,
                     "id": "hoth_empire_phase04_conflict02_recon01",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "hoth_empire_phase04_conflict02_recon01",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -15271,28 +15450,32 @@
                     "id": "hoth_empire_phase03_conflict01_recon01",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "hoth_empire_phase03_conflict01_recon01",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 62,
                     "id": "hoth_empire_phase04_conflict02_recon01",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "hoth_empire_phase04_conflict02_recon01",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -15322,21 +15505,24 @@
                     "id": "hoth_empire_phase03_conflict01_recon01",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 62,
                     "id": "hoth_empire_phase04_conflict02_recon01",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "hoth_empire_phase04_conflict02_recon01",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -15366,28 +15552,32 @@
                     "id": "hoth_empire_phase03_conflict01_recon01",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "hoth_empire_phase03_conflict01_recon01",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 62,
                     "id": "hoth_empire_phase04_conflict02_recon01",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "hoth_empire_phase04_conflict02_recon01",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -15417,28 +15607,32 @@
                     "id": "hoth_empire_phase03_conflict01_recon01",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "hoth_empire_phase03_conflict01_recon01",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 62,
                     "id": "hoth_empire_phase04_conflict02_recon01",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "hoth_empire_phase04_conflict02_recon01",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -15468,21 +15662,24 @@
                     "id": "hoth_empire_phase03_conflict01_recon01",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 62,
                     "id": "hoth_empire_phase04_conflict02_recon01",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "hoth_empire_phase04_conflict02_recon01",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -15512,21 +15709,24 @@
                     "id": "hoth_empire_phase03_conflict01_recon01",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "hoth_empire_phase03_conflict01_recon01",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 62,
                     "id": "hoth_empire_phase04_conflict02_recon01",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -15556,21 +15756,24 @@
                     "id": "hoth_empire_phase03_conflict01_recon01",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "hoth_empire_phase03_conflict01_recon01",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 62,
                     "id": "hoth_empire_phase04_conflict02_recon01",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -15600,14 +15803,16 @@
                     "id": "hoth_empire_phase03_conflict01_recon01",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 62,
                     "id": "hoth_empire_phase04_conflict02_recon01",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -15806,7 +16011,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -15836,14 +16042,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -15873,14 +16081,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -15910,7 +16120,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -16109,7 +16320,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -16139,14 +16351,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -16176,14 +16390,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -16213,7 +16429,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -16412,7 +16629,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -16442,14 +16660,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -16479,14 +16699,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -16516,7 +16738,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -16723,7 +16946,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -16761,14 +16985,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -16806,14 +17032,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -16851,7 +17079,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -17050,7 +17279,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -17080,14 +17310,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -17117,14 +17349,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -17154,7 +17388,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -17353,7 +17588,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -17383,14 +17619,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -17420,14 +17658,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -17457,7 +17697,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -17654,7 +17895,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -17682,14 +17924,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -17717,14 +17961,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -17752,7 +17998,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -17949,7 +18196,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -17977,14 +18225,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -18012,14 +18262,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -18047,7 +18299,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -18246,7 +18499,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -18276,14 +18530,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -18313,14 +18569,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -18350,7 +18608,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -18547,7 +18806,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -18575,14 +18835,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -18610,14 +18872,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -18645,7 +18909,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -18842,7 +19107,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -18870,14 +19136,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -18905,14 +19173,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -18940,7 +19210,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -25253,7 +25524,8 @@
                   "id": "geonosis_republic_phase01_conflict01",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -25319,7 +25591,8 @@
                   "id": "geonosis_republic_phase01_conflict02",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -25385,7 +25658,8 @@
                   "id": "geonosis_republic_phase01_conflict03",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -25451,7 +25725,8 @@
                   "id": "geonosis_republic_phase02_conflict01",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -25517,7 +25792,8 @@
                   "id": "geonosis_republic_phase02_conflict02",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -25583,7 +25859,8 @@
                   "id": "geonosis_republic_phase02_conflict03",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -25649,7 +25926,8 @@
                   "id": "geonosis_republic_phase03_conflict01",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -25715,7 +25993,8 @@
                   "id": "geonosis_republic_phase03_conflict02",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -25781,7 +26060,8 @@
                   "id": "geonosis_republic_phase03_conflict03",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -26495,7 +26775,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -26528,14 +26809,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -26568,14 +26851,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -26608,7 +26893,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -26641,14 +26927,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -26681,14 +26969,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -26721,7 +27011,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -26754,14 +27045,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -26794,14 +27087,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -26834,7 +27129,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -26867,7 +27163,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -26900,7 +27197,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -26933,7 +27231,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -27131,7 +27430,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -27160,14 +27460,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -27196,14 +27498,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -27232,7 +27536,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -27433,7 +27738,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -27465,14 +27771,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -27504,14 +27812,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -27543,7 +27853,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -27742,7 +28053,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -27772,14 +28084,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -27809,14 +28123,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -27846,7 +28162,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -28047,7 +28364,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -28079,14 +28397,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -28118,14 +28438,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -28157,7 +28479,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -28356,7 +28679,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -28386,14 +28710,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -28423,14 +28749,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -28460,7 +28788,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -28660,7 +28989,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -28691,14 +29021,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -28729,14 +29061,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -28767,7 +29101,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -28977,7 +29312,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -29018,14 +29354,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -29066,14 +29404,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -29114,7 +29454,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -29314,7 +29655,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -29345,14 +29687,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -29383,14 +29727,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -29421,7 +29767,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -29625,7 +29972,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -29660,14 +30008,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -29702,14 +30052,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -29744,7 +30096,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -29944,7 +30297,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -29975,14 +30329,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -30013,14 +30369,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -30051,7 +30409,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -30251,7 +30610,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -30282,14 +30642,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -30320,14 +30682,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -30358,7 +30722,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -38274,7 +38639,8 @@
                   "id": "geonosis_separatist_phase01_conflict01",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -38340,14 +38706,16 @@
                   "id": "geonosis_separatist_phase01_conflict01",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 },
                 {
                   "type": 61,
                   "id": "geonosis_separatist_phase01_conflict02",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 2,
@@ -38413,7 +38781,8 @@
                   "id": "geonosis_separatist_phase01_conflict02",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -38479,7 +38848,8 @@
                   "id": "geonosis_separatist_phase02_conflict01",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -38545,7 +38915,8 @@
                   "id": "geonosis_separatist_phase02_conflict02",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -38611,7 +38982,8 @@
                   "id": "geonosis_separatist_phase02_conflict03",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -38677,7 +39049,8 @@
                   "id": "geonosis_separatist_phase03_conflict01",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -38743,7 +39116,8 @@
                   "id": "geonosis_separatist_phase03_conflict02",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -38809,7 +39183,8 @@
                   "id": "geonosis_separatist_phase03_conflict03",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -39557,7 +39932,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -39600,14 +39976,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -39650,14 +40028,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -39700,7 +40080,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -39901,7 +40282,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -39933,14 +40315,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -39972,14 +40356,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -40011,7 +40397,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -40211,7 +40598,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -40242,14 +40630,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -40280,14 +40670,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -40318,7 +40710,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -40516,7 +40909,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -40545,14 +40939,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -40581,14 +40977,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -40617,7 +41015,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -40820,7 +41219,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -40854,14 +41254,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -40895,14 +41297,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -40936,7 +41340,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -41138,7 +41543,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -41171,14 +41577,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -41211,14 +41619,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -41251,7 +41661,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -41450,7 +41861,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -41480,14 +41892,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -41517,14 +41931,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -41554,7 +41970,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -41751,7 +42168,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -41779,14 +42197,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -41814,14 +42234,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -41849,7 +42271,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -42051,7 +42474,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -42084,14 +42508,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -42124,14 +42550,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -42164,7 +42592,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -42363,7 +42792,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -42393,14 +42823,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -42430,14 +42862,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -42467,7 +42901,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -42665,7 +43100,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -42694,14 +43130,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -42730,14 +43168,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -42766,7 +43206,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -50499,7 +50940,8 @@
                   "id": "tb3_mixed_phase01_conflict01",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -50565,7 +51007,8 @@
                   "id": "tb3_mixed_phase01_conflict02",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -50631,7 +51074,8 @@
                   "id": "tb3_mixed_phase01_conflict03",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -50697,7 +51141,8 @@
                   "id": "tb3_mixed_phase02_conflict01",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -50763,14 +51208,16 @@
                   "id": "tb3_mixed_phase02_conflict01",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 },
                 {
                   "type": 116,
                   "id": "tb3_mixed_phase02_conflict01_covert01",
                   "value": 30,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -50836,7 +51283,8 @@
                   "id": "tb3_mixed_phase02_conflict02",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -50902,7 +51350,8 @@
                   "id": "tb3_mixed_phase02_conflict03",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -50968,7 +51417,8 @@
                   "id": "tb3_mixed_phase03_conflict01",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -51034,7 +51484,8 @@
                   "id": "tb3_mixed_phase03_conflict02",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -51100,7 +51551,8 @@
                   "id": "tb3_mixed_phase03_conflict03",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -51166,14 +51618,16 @@
                   "id": "tb3_mixed_phase03_conflict03",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 },
                 {
                   "type": 116,
                   "id": "tb3_mixed_phase03_conflict03_covert02",
                   "value": 25,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -51239,7 +51693,8 @@
                   "id": "tb3_mixed_phase04_conflict01",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -51305,7 +51760,8 @@
                   "id": "tb3_mixed_phase04_conflict02",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -51371,7 +51827,8 @@
                   "id": "tb3_mixed_phase04_conflict03",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -51437,7 +51894,8 @@
                   "id": "tb3_mixed_phase05_conflict01",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -51503,7 +51961,8 @@
                   "id": "tb3_mixed_phase05_conflict02",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -51569,7 +52028,8 @@
                   "id": "tb3_mixed_phase05_conflict03",
                   "value": 1,
                   "locKey": "",
-                  "negate": false
+                  "negate": false,
+                  "rosterUnitType": 0
                 }
               ],
               "evalType": 1,
@@ -53916,7 +54376,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -53950,14 +54411,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -53991,14 +54454,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -54032,7 +54497,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -54317,7 +54783,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -54351,14 +54818,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -54392,14 +54861,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -54433,7 +54904,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -54463,7 +54935,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -54490,7 +54963,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -54691,7 +55165,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -54723,14 +55198,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -54762,14 +55239,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -54801,7 +55280,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -55066,7 +55546,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -55103,14 +55584,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -55147,14 +55630,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -55191,7 +55676,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -55474,7 +55960,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -55514,14 +56001,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -55561,14 +56050,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -55608,7 +56099,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -55903,7 +56395,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -55938,14 +56431,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -55980,14 +56475,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -56022,7 +56519,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -56254,7 +56752,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -56286,14 +56785,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -56325,14 +56826,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -56364,7 +56867,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -56395,14 +56899,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -56433,14 +56939,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -56471,7 +56979,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -56502,14 +57011,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -56540,14 +57051,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -56578,7 +57091,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -56825,7 +57339,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -56855,14 +57370,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -56892,14 +57409,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -56929,7 +57448,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -57171,7 +57691,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -57198,14 +57719,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -57232,14 +57755,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -57266,7 +57791,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -57293,14 +57819,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -57327,14 +57855,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -57361,7 +57891,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -57388,14 +57919,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -57422,14 +57955,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -57456,7 +57991,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -57659,7 +58195,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -57693,14 +58230,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -57734,14 +58273,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -57775,7 +58316,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -58020,7 +58562,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -58050,14 +58593,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -58087,14 +58632,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -58124,7 +58671,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -58372,7 +58920,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -58403,14 +58952,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -58441,14 +58992,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -58479,7 +59032,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -58714,7 +59268,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -58744,14 +59299,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -58781,14 +59338,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -58818,7 +59377,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -59078,7 +59638,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -59107,14 +59668,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -59143,14 +59706,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -59179,7 +59744,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -59428,7 +59994,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -59462,14 +60029,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -59503,14 +60072,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -59544,7 +60115,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -59807,7 +60379,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -59841,14 +60414,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -59882,14 +60457,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -59923,7 +60500,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -60143,7 +60721,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -60177,14 +60756,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -60218,14 +60799,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -60259,7 +60842,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -60537,7 +61121,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -60567,14 +61152,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -60604,14 +61191,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -60641,7 +61230,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -60888,7 +61478,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -60918,14 +61509,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -60955,14 +61548,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -60992,7 +61587,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -61239,7 +61835,8 @@
                     "id": "",
                     "value": 1,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -61269,14 +61866,16 @@
                     "id": "",
                     "value": 2,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 3,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -61306,14 +61905,16 @@
                     "id": "",
                     "value": 4,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   },
                   {
                     "type": 63,
                     "id": "",
                     "value": 5,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,
@@ -61343,7 +61944,8 @@
                     "id": "",
                     "value": 6,
                     "locKey": "",
-                    "negate": false
+                    "negate": false,
+                    "rosterUnitType": 0
                   }
                 ],
                 "evalType": 1,

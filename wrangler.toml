@@ -1,0 +1,12 @@
+name = "swgoh-rote-tb"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+# D1 Database binding
+[[d1_databases]]
+binding = "DB"
+database_name = "swgoh-db"
+database_id = "e9d65103-888b-4e7d-8ceb-c51b2a94faff"
+
+[vars]
+NODE_ENV = "production"

@@ -1,8 +1,1936 @@
 {
-  "generated": "2025-09-23T17:17:38.660Z",
+  "generated": "2026-01-02T17:34:53.308Z",
+  "version": "2.1.0",
+  "source": "smart-download",
+  "description": "Essential SWGoH assets for Territory Battle Tracker",
+  "stats": {
+    "attempted": 22,
+    "downloaded": 0,
+    "failed": 5,
+    "skipped": 17,
+    "strategies": {}
+  },
+  "strategies": [
+    {
+      "name": "swgoh.help",
+      "baseUrl": "https://api.swgoh.help/image/char/{gameId}",
+      "successes": 0
+    },
+    {
+      "name": "swgoh.gg-legacy",
+      "baseUrl": "https://swgoh.gg/static/img/assets/tex.charui_example.png",
+      "successes": 0
+    },
+    {
+      "name": "community-cdn",
+      "baseUrl": "https://swgoh-stat-calc.glitch.me/images/units/{gameId}.png",
+      "successes": 0
+    }
+  ],
   "assets": {
-    "character_portraits": [],
-    "character_icons": [],
-    "planet_backgrounds": []
+    "characters": [
+      {
+        "gameId": "50RT",
+        "file": "50RT.png",
+        "format": "png"
+      },
+      {
+        "gameId": "AAYLASECURA",
+        "file": "AAYLASECURA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "ADMINISTRATORLANDO",
+        "file": "ADMINISTRATORLANDO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "ADMIRALACKBAR",
+        "file": "ADMIRALACKBAR.png",
+        "format": "png"
+      },
+      {
+        "gameId": "ADMIRALPIETT",
+        "file": "ADMIRALPIETT.png",
+        "format": "png"
+      },
+      {
+        "gameId": "ADMIRALRADDUS",
+        "file": "ADMIRALRADDUS.png",
+        "format": "png"
+      },
+      {
+        "gameId": "AHSOKATANO",
+        "file": "AHSOKATANO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "AMILYNHOLDO",
+        "file": "AMILYNHOLDO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "ANAKINKNIGHT",
+        "file": "ANAKINKNIGHT.png",
+        "format": "png"
+      },
+      {
+        "gameId": "APPO",
+        "file": "APPO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "ARCTROOPER501ST",
+        "file": "ARCTROOPER501ST.png",
+        "format": "png"
+      },
+      {
+        "gameId": "ARMORER",
+        "file": "ARMORER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "ASAJVENTRESS",
+        "file": "ASAJVENTRESS.png",
+        "format": "png"
+      },
+      {
+        "gameId": "AURRA_SING",
+        "file": "AURRA_SING.png",
+        "format": "png"
+      },
+      {
+        "gameId": "B1BATTLEDROIDV2",
+        "file": "B1BATTLEDROIDV2.png",
+        "format": "png"
+      },
+      {
+        "gameId": "B2SUPERBATTLEDROID",
+        "file": "B2SUPERBATTLEDROID.png",
+        "format": "png"
+      },
+      {
+        "gameId": "BADBATCHECHO",
+        "file": "BADBATCHECHO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "BADBATCHHUNTER",
+        "file": "BADBATCHHUNTER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "BADBATCHOMEGA",
+        "file": "BADBATCHOMEGA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "BADBATCHTECH",
+        "file": "BADBATCHTECH.png",
+        "format": "png"
+      },
+      {
+        "gameId": "BADBATCHWRECKER",
+        "file": "BADBATCHWRECKER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "BARRISSOFFEE",
+        "file": "BARRISSOFFEE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "BASTILASHAN",
+        "file": "BASTILASHAN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "BASTILASHANDARK",
+        "file": "BASTILASHANDARK.png",
+        "format": "png"
+      },
+      {
+        "gameId": "BATCHERS3",
+        "file": "BATCHERS3.png",
+        "format": "png"
+      },
+      {
+        "gameId": "BAYLANSKOLL",
+        "file": "BAYLANSKOLL.png",
+        "format": "png"
+      },
+      {
+        "gameId": "BAZE",
+        "file": "BAZE.svg",
+        "format": "svg"
+      },
+      {
+        "gameId": "BAZEMALBUS",
+        "file": "BAZEMALBUS.png",
+        "format": "png"
+      },
+      {
+        "gameId": "BB8",
+        "file": "BB8.png",
+        "format": "png"
+      },
+      {
+        "gameId": "BENSOLO",
+        "file": "BENSOLO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "BIGGSDARKLIGHTER",
+        "file": "BIGGSDARKLIGHTER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "BISTAN",
+        "file": "BISTAN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "BOBAFETT",
+        "file": "BOBAFETT.png",
+        "format": "png"
+      },
+      {
+        "gameId": "BOBAFETTSCION",
+        "file": "BOBAFETTSCION.png",
+        "format": "png"
+      },
+      {
+        "gameId": "BODHIROOK",
+        "file": "BODHIROOK.png",
+        "format": "png"
+      },
+      {
+        "gameId": "BOKATAN",
+        "file": "BOKATAN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "BOOMADIER",
+        "file": "BOOMADIER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "BOSSK",
+        "file": "BOSSK.png",
+        "format": "png"
+      },
+      {
+        "gameId": "BOSSNASS",
+        "file": "BOSSNASS.png",
+        "format": "png"
+      },
+      {
+        "gameId": "BOUSHH",
+        "file": "BOUSHH.png",
+        "format": "png"
+      },
+      {
+        "gameId": "BRUTUS",
+        "file": "BRUTUS.png",
+        "format": "png"
+      },
+      {
+        "gameId": "BT1",
+        "file": "BT1.png",
+        "format": "png"
+      },
+      {
+        "gameId": "C3POCHEWBACCA",
+        "file": "C3POCHEWBACCA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "C3POLEGENDARY",
+        "file": "C3POLEGENDARY.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CADBANE",
+        "file": "CADBANE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CALKESTIS",
+        "file": "CALKESTIS.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CANDEROUSORDO",
+        "file": "CANDEROUSORDO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CAPTAINDROGAN",
+        "file": "CAPTAINDROGAN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CAPTAINENOCH",
+        "file": "CAPTAINENOCH.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CAPTAINREX",
+        "file": "CAPTAINREX.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CAPTAINSILVO",
+        "file": "CAPTAINSILVO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CAPTAINTARPALS",
+        "file": "CAPTAINTARPALS.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CARADUNE",
+        "file": "CARADUNE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CARTHONASI",
+        "file": "CARTHONASI.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CASSIANANDOR",
+        "file": "CASSIANANDOR.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CC2224",
+        "file": "CC2224.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CEREJUNDA",
+        "file": "CEREJUNDA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CHEWBACCA",
+        "file": "CHEWBACCA.svg",
+        "format": "svg"
+      },
+      {
+        "gameId": "CHEWBACCALEGENDARY",
+        "file": "CHEWBACCALEGENDARY.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CHIEFCHIRPA",
+        "file": "CHIEFCHIRPA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CHIEFNEBIT",
+        "file": "CHIEFNEBIT.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CHIRRUT",
+        "file": "CHIRRUT.svg",
+        "format": "svg"
+      },
+      {
+        "gameId": "CHIRRUTIMWE",
+        "file": "CHIRRUTIMWE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CHOPPERS3",
+        "file": "CHOPPERS3.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CLONESERGEANTPHASEI",
+        "file": "CLONESERGEANTPHASEI.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CLONEWARSCHEWBACCA",
+        "file": "CLONEWARSCHEWBACCA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "COLONELSTARCK",
+        "file": "COLONELSTARCK.png",
+        "format": "png"
+      },
+      {
+        "gameId": "COMMANDERAHSOKA",
+        "file": "COMMANDERAHSOKA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "COMMANDERLUKESKYWALKER",
+        "file": "COMMANDERLUKESKYWALKER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CORUSCANTUNDERWORLDPOLICE",
+        "file": "CORUSCANTUNDERWORLDPOLICE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "COUNTDOOKU",
+        "file": "COUNTDOOKU.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CROSSHAIRS3",
+        "file": "CROSSHAIRS3.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CT210408",
+        "file": "CT210408.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CT5555",
+        "file": "CT5555.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CT7567",
+        "file": "CT7567.png",
+        "format": "png"
+      },
+      {
+        "gameId": "DAKA",
+        "file": "DAKA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "DARKREY",
+        "file": "DARKREY.png",
+        "format": "png"
+      },
+      {
+        "gameId": "DARKTROOPER",
+        "file": "DARKTROOPER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "DARTHBANE",
+        "file": "DARTHBANE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "DARTHMALAK",
+        "file": "DARTHMALAK.png",
+        "format": "png"
+      },
+      {
+        "gameId": "DARTHMALGUS",
+        "file": "DARTHMALGUS.png",
+        "format": "png"
+      },
+      {
+        "gameId": "DARTHNIHILUS",
+        "file": "DARTHNIHILUS.png",
+        "format": "png"
+      },
+      {
+        "gameId": "DARTHREVAN",
+        "file": "DARTHREVAN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "DARTHSIDIOUS",
+        "file": "DARTHSIDIOUS.png",
+        "format": "png"
+      },
+      {
+        "gameId": "DARTHSION",
+        "file": "DARTHSION.png",
+        "format": "png"
+      },
+      {
+        "gameId": "DARTHTALON",
+        "file": "DARTHTALON.png",
+        "format": "png"
+      },
+      {
+        "gameId": "DARTHTRAYA",
+        "file": "DARTHTRAYA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "DARTHVADER",
+        "file": "DARTHVADER.svg",
+        "format": "svg"
+      },
+      {
+        "gameId": "DASHRENDAR",
+        "file": "DASHRENDAR.png",
+        "format": "png"
+      },
+      {
+        "gameId": "DATHCHA",
+        "file": "DATHCHA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "DEATHTROOPER",
+        "file": "DEATHTROOPER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "DEATHTROOPERPERIDEA",
+        "file": "DEATHTROOPERPERIDEA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "DENGAR",
+        "file": "DENGAR.png",
+        "format": "png"
+      },
+      {
+        "gameId": "DEPABILLABA",
+        "file": "DEPABILLABA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "DIRECTORKRENNIC",
+        "file": "DIRECTORKRENNIC.png",
+        "format": "png"
+      },
+      {
+        "gameId": "DISGUISEDCLONETROOPER",
+        "file": "DISGUISEDCLONETROOPER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "DOCTORAPHRA",
+        "file": "DOCTORAPHRA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "DROIDEKA",
+        "file": "DROIDEKA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "EETHKOTH",
+        "file": "EETHKOTH.png",
+        "format": "png"
+      },
+      {
+        "gameId": "EIGHTHBROTHER",
+        "file": "EIGHTHBROTHER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "EMBO",
+        "file": "EMBO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "EMPERORPALPATINE",
+        "file": "EMPERORPALPATINE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "ENFYSNEST",
+        "file": "ENFYSNEST.png",
+        "format": "png"
+      },
+      {
+        "gameId": "EPIXFINN",
+        "file": "EPIXFINN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "EPIXPOE",
+        "file": "EPIXPOE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "EWOKELDER",
+        "file": "EWOKELDER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "EWOKSCOUT",
+        "file": "EWOKSCOUT.png",
+        "format": "png"
+      },
+      {
+        "gameId": "EZRABRIDGERS3",
+        "file": "EZRABRIDGERS3.png",
+        "format": "png"
+      },
+      {
+        "gameId": "EZRAEXILE",
+        "file": "EZRAEXILE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "FENNECSHAND",
+        "file": "FENNECSHAND.png",
+        "format": "png"
+      },
+      {
+        "gameId": "FIFTHBROTHER",
+        "file": "FIFTHBROTHER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "FINN",
+        "file": "FINN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "FIRSTORDEREXECUTIONER",
+        "file": "FIRSTORDEREXECUTIONER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "FIRSTORDEROFFICERMALE",
+        "file": "FIRSTORDEROFFICERMALE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "FIRSTORDERSPECIALFORCESPILOT",
+        "file": "FIRSTORDERSPECIALFORCESPILOT.png",
+        "format": "png"
+      },
+      {
+        "gameId": "FIRSTORDERTIEPILOT",
+        "file": "FIRSTORDERTIEPILOT.png",
+        "format": "png"
+      },
+      {
+        "gameId": "FIRSTORDERTROOPER",
+        "file": "FIRSTORDERTROOPER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "FOSITHTROOPER",
+        "file": "FOSITHTROOPER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "FULCRUMAHSOKA",
+        "file": "FULCRUMAHSOKA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GAMORREANGUARD",
+        "file": "GAMORREANGUARD.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GARSAXON",
+        "file": "GARSAXON.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GENERALHUX",
+        "file": "GENERALHUX.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GENERALKENOBI",
+        "file": "GENERALKENOBI.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GENERALSKYWALKER",
+        "file": "GENERALSKYWALKER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GENERALSYNDULLA",
+        "file": "GENERALSYNDULLA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GEONOSIANBROODALPHA",
+        "file": "GEONOSIANBROODALPHA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GEONOSIANSOLDIER",
+        "file": "GEONOSIANSOLDIER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GEONOSIANSPY",
+        "file": "GEONOSIANSPY.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GLAHSOKATANO",
+        "file": "GLAHSOKATANO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GLHONDO",
+        "file": "GLHONDO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GLLEIA",
+        "file": "GLLEIA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GLREY",
+        "file": "GLREY.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GRANDADMIRALTHRAWN",
+        "file": "GRANDADMIRALTHRAWN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GRANDINQUISITOR",
+        "file": "GRANDINQUISITOR.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GRANDMASTERLUKE",
+        "file": "GRANDMASTERLUKE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GRANDMASTERYODA",
+        "file": "GRANDMASTERYODA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GRANDMOFFTARKIN",
+        "file": "GRANDMOFFTARKIN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GREATMOTHERS",
+        "file": "GREATMOTHERS.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GREEDO",
+        "file": "GREEDO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GREEFKARGA",
+        "file": "GREEFKARGA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GRIEVOUS",
+        "file": "GRIEVOUS.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GUNGANPHALANX",
+        "file": "GUNGANPHALANX.png",
+        "format": "png"
+      },
+      {
+        "gameId": "HANSOLO",
+        "file": "HANSOLO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "HERASYNDULLAS3",
+        "file": "HERASYNDULLAS3.png",
+        "format": "png"
+      },
+      {
+        "gameId": "HERMITYODA",
+        "file": "HERMITYODA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "HK47",
+        "file": "HK47.png",
+        "format": "png"
+      },
+      {
+        "gameId": "HONDO",
+        "file": "HONDO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "HOTHHAN",
+        "file": "HOTHHAN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "HOTHLEIA",
+        "file": "HOTHLEIA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "HOTHREBELSCOUT",
+        "file": "HOTHREBELSCOUT.png",
+        "format": "png"
+      },
+      {
+        "gameId": "HOTHREBELSOLDIER",
+        "file": "HOTHREBELSOLDIER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "HUMANTHUG",
+        "file": "HUMANTHUG.png",
+        "format": "png"
+      },
+      {
+        "gameId": "HUNTERS3",
+        "file": "HUNTERS3.png",
+        "format": "png"
+      },
+      {
+        "gameId": "HUYANG",
+        "file": "HUYANG.png",
+        "format": "png"
+      },
+      {
+        "gameId": "IDENVERSIOEMPIRE",
+        "file": "IDENVERSIOEMPIRE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "IG11",
+        "file": "IG11.png",
+        "format": "png"
+      },
+      {
+        "gameId": "IG12",
+        "file": "IG12.png",
+        "format": "png"
+      },
+      {
+        "gameId": "IG86SENTINELDROID",
+        "file": "IG86SENTINELDROID.png",
+        "format": "png"
+      },
+      {
+        "gameId": "IG88",
+        "file": "IG88.png",
+        "format": "png"
+      },
+      {
+        "gameId": "IMAGUNDI",
+        "file": "IMAGUNDI.png",
+        "format": "png"
+      },
+      {
+        "gameId": "IMPERIALPROBEDROID",
+        "file": "IMPERIALPROBEDROID.png",
+        "format": "png"
+      },
+      {
+        "gameId": "IMPERIALSUPERCOMMANDO",
+        "file": "IMPERIALSUPERCOMMANDO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "ITHANO",
+        "file": "ITHANO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "JABBATHEHUTT",
+        "file": "JABBATHEHUTT.png",
+        "format": "png"
+      },
+      {
+        "gameId": "JANGOFETT",
+        "file": "JANGOFETT.png",
+        "format": "png"
+      },
+      {
+        "gameId": "JARJARBINKS",
+        "file": "JARJARBINKS.png",
+        "format": "png"
+      },
+      {
+        "gameId": "JAWA",
+        "file": "JAWA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "JAWAENGINEER",
+        "file": "JAWAENGINEER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "JAWASCAVENGER",
+        "file": "JAWASCAVENGER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "JEDIKNIGHTCAL",
+        "file": "JEDIKNIGHTCAL.png",
+        "format": "png"
+      },
+      {
+        "gameId": "JEDIKNIGHTCONSULAR",
+        "file": "JEDIKNIGHTCONSULAR.png",
+        "format": "png"
+      },
+      {
+        "gameId": "JEDIKNIGHTGUARDIAN",
+        "file": "JEDIKNIGHTGUARDIAN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "JEDIKNIGHTLUKE",
+        "file": "JEDIKNIGHTLUKE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "JEDIKNIGHTREVAN",
+        "file": "JEDIKNIGHTREVAN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "JEDIMASTERKENOBI",
+        "file": "JEDIMASTERKENOBI.png",
+        "format": "png"
+      },
+      {
+        "gameId": "JEDIMASTERMACEWINDU",
+        "file": "JEDIMASTERMACEWINDU.png",
+        "format": "png"
+      },
+      {
+        "gameId": "JOCASTANU",
+        "file": "JOCASTANU.png",
+        "format": "png"
+      },
+      {
+        "gameId": "JOLEEBINDO",
+        "file": "JOLEEBINDO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "JUHANI",
+        "file": "JUHANI.png",
+        "format": "png"
+      },
+      {
+        "gameId": "JYNERSO",
+        "file": "JYNERSO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "K2SO",
+        "file": "K2SO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "KANANJARRUSS3",
+        "file": "KANANJARRUSS3.png",
+        "format": "png"
+      },
+      {
+        "gameId": "KELLERANBEQ",
+        "file": "KELLERANBEQ.png",
+        "format": "png"
+      },
+      {
+        "gameId": "KIADIMUNDI",
+        "file": "KIADIMUNDI.png",
+        "format": "png"
+      },
+      {
+        "gameId": "KITFISTO",
+        "file": "KITFISTO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "KIX",
+        "file": "KIX.png",
+        "format": "png"
+      },
+      {
+        "gameId": "KRRSANTAN",
+        "file": "KRRSANTAN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "KUIIL",
+        "file": "KUIIL.png",
+        "format": "png"
+      },
+      {
+        "gameId": "KYLEKATARN",
+        "file": "KYLEKATARN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "KYLOREN",
+        "file": "KYLOREN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "KYLORENUNMASKED",
+        "file": "KYLORENUNMASKED.png",
+        "format": "png"
+      },
+      {
+        "gameId": "L3_37",
+        "file": "L3_37.png",
+        "format": "png"
+      },
+      {
+        "gameId": "LOBOT",
+        "file": "LOBOT.png",
+        "format": "png"
+      },
+      {
+        "gameId": "LOGRAY",
+        "file": "LOGRAY.png",
+        "format": "png"
+      },
+      {
+        "gameId": "LORDVADER",
+        "file": "LORDVADER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "LUKESKYWALKER",
+        "file": "LUKESKYWALKER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "LUMINARAUNDULI",
+        "file": "LUMINARAUNDULI.png",
+        "format": "png"
+      },
+      {
+        "gameId": "LUTHENRAEL",
+        "file": "LUTHENRAEL.png",
+        "format": "png"
+      },
+      {
+        "gameId": "MACEWINDU",
+        "file": "MACEWINDU.png",
+        "format": "png"
+      },
+      {
+        "gameId": "MAGMATROOPER",
+        "file": "MAGMATROOPER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "MAGNAGUARD",
+        "file": "MAGNAGUARD.png",
+        "format": "png"
+      },
+      {
+        "gameId": "MANDALORBOKATAN",
+        "file": "MANDALORBOKATAN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "MARAJADE",
+        "file": "MARAJADE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "MARROK",
+        "file": "MARROK.png",
+        "format": "png"
+      },
+      {
+        "gameId": "MASTERQUIGON",
+        "file": "MASTERQUIGON.png",
+        "format": "png"
+      },
+      {
+        "gameId": "MAUL",
+        "file": "MAUL.png",
+        "format": "png"
+      },
+      {
+        "gameId": "MAULS7",
+        "file": "MAULS7.png",
+        "format": "png"
+      },
+      {
+        "gameId": "MAZKANATA",
+        "file": "MAZKANATA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "MERRIN",
+        "file": "MERRIN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "MISSIONVAO",
+        "file": "MISSIONVAO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "MOFFGIDEONS1",
+        "file": "MOFFGIDEONS1.png",
+        "format": "png"
+      },
+      {
+        "gameId": "MOFFGIDEONS3",
+        "file": "MOFFGIDEONS3.png",
+        "format": "png"
+      },
+      {
+        "gameId": "MONMOTHMA",
+        "file": "MONMOTHMA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "MORGANELSBETH",
+        "file": "MORGANELSBETH.png",
+        "format": "png"
+      },
+      {
+        "gameId": "MOTHERTALZIN",
+        "file": "MOTHERTALZIN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "NIGHTSISTERACOLYTE",
+        "file": "NIGHTSISTERACOLYTE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "NIGHTSISTERINITIATE",
+        "file": "NIGHTSISTERINITIATE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "NIGHTSISTERSPIRIT",
+        "file": "NIGHTSISTERSPIRIT.png",
+        "format": "png"
+      },
+      {
+        "gameId": "NIGHTSISTERZOMBIE",
+        "file": "NIGHTSISTERZOMBIE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "NIGHTTROOPER",
+        "file": "NIGHTTROOPER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "NINTHSISTER",
+        "file": "NINTHSISTER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "NUTEGUNRAY",
+        "file": "NUTEGUNRAY.png",
+        "format": "png"
+      },
+      {
+        "gameId": "OLDBENKENOBI",
+        "file": "OLDBENKENOBI.png",
+        "format": "png"
+      },
+      {
+        "gameId": "OMEGAS3",
+        "file": "OMEGAS3.png",
+        "format": "png"
+      },
+      {
+        "gameId": "OPERATIVE",
+        "file": "OPERATIVE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "PADAWANOBIWAN",
+        "file": "PADAWANOBIWAN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "PADAWANSABINE",
+        "file": "PADAWANSABINE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "PADMEAMIDALA",
+        "file": "PADMEAMIDALA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "PAO",
+        "file": "PAO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "PAPLOO",
+        "file": "PAPLOO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "PAZVIZSLA",
+        "file": "PAZVIZSLA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "PHASMA",
+        "file": "PHASMA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "PLOKOON",
+        "file": "PLOKOON.png",
+        "format": "png"
+      },
+      {
+        "gameId": "POE",
+        "file": "POE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "POGGLETHELESSER",
+        "file": "POGGLETHELESSER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "PRINCESSKNEESAA",
+        "file": "PRINCESSKNEESAA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "PRINCESSLEIA",
+        "file": "PRINCESSLEIA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "QIRA",
+        "file": "QIRA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "QUEENAMIDALA",
+        "file": "QUEENAMIDALA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "QUIGGOLD",
+        "file": "QUIGGOLD.png",
+        "format": "png"
+      },
+      {
+        "gameId": "QUIGONJINN",
+        "file": "QUIGONJINN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "R2D2_LEGENDARY",
+        "file": "R2D2_LEGENDARY.png",
+        "format": "png"
+      },
+      {
+        "gameId": "RANGETROOPER",
+        "file": "RANGETROOPER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "RESISTANCEPILOT",
+        "file": "RESISTANCEPILOT.png",
+        "format": "png"
+      },
+      {
+        "gameId": "RESISTANCETROOPER",
+        "file": "RESISTANCETROOPER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "REY",
+        "file": "REY.png",
+        "format": "png"
+      },
+      {
+        "gameId": "REYJEDITRAINING",
+        "file": "REYJEDITRAINING.png",
+        "format": "png"
+      },
+      {
+        "gameId": "ROSETICO",
+        "file": "ROSETICO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "ROYALGUARD",
+        "file": "ROYALGUARD.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SABINEWRENS3",
+        "file": "SABINEWRENS3.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SANASTARROS",
+        "file": "SANASTARROS.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SAVAGEOPRESS",
+        "file": "SAVAGEOPRESS.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SAWGERRERA",
+        "file": "SAWGERRERA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SCARIFREBEL",
+        "file": "SCARIFREBEL.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SCORCH",
+        "file": "SCORCH.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SCOUTTROOPER_V3",
+        "file": "SCOUTTROOPER_V3.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SECONDSISTER",
+        "file": "SECONDSISTER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SEVENTHSISTER",
+        "file": "SEVENTHSISTER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SHAAKTI",
+        "file": "SHAAKTI.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SHINHATI",
+        "file": "SHINHATI.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SHORETROOPER",
+        "file": "SHORETROOPER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SITHASSASSIN",
+        "file": "SITHASSASSIN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SITHMARAUDER",
+        "file": "SITHMARAUDER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SITHPALPATINE",
+        "file": "SITHPALPATINE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SITHTROOPER",
+        "file": "SITHTROOPER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SM33",
+        "file": "SM33.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SMUGGLERCHEWBACCA",
+        "file": "SMUGGLERCHEWBACCA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SMUGGLERHAN",
+        "file": "SMUGGLERHAN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SNOWTROOPER",
+        "file": "SNOWTROOPER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "STAP",
+        "file": "STAP.png",
+        "format": "png"
+      },
+      {
+        "gameId": "STARKILLER",
+        "file": "STARKILLER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "STORMTROOPER",
+        "file": "STORMTROOPER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "STORMTROOPERHAN",
+        "file": "STORMTROOPERHAN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SUNFAC",
+        "file": "SUNFAC.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SUPREMELEADERKYLOREN",
+        "file": "SUPREMELEADERKYLOREN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "T3_M4",
+        "file": "T3_M4.png",
+        "format": "png"
+      },
+      {
+        "gameId": "TALIA",
+        "file": "TALIA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "TARFFUL",
+        "file": "TARFFUL.png",
+        "format": "png"
+      },
+      {
+        "gameId": "TARONMALICOS",
+        "file": "TARONMALICOS.png",
+        "format": "png"
+      },
+      {
+        "gameId": "TEEBO",
+        "file": "TEEBO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "THEMANDALORIAN",
+        "file": "THEMANDALORIAN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "THEMANDALORIANBESKARARMOR",
+        "file": "THEMANDALORIANBESKARARMOR.png",
+        "format": "png"
+      },
+      {
+        "gameId": "THIRDSISTER",
+        "file": "THIRDSISTER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "TIEFIGHTERPILOT",
+        "file": "TIEFIGHTERPILOT.png",
+        "format": "png"
+      },
+      {
+        "gameId": "TRENCH",
+        "file": "TRENCH.png",
+        "format": "png"
+      },
+      {
+        "gameId": "TRIPLEZERO",
+        "file": "TRIPLEZERO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "TUSKENCHIEFTAIN",
+        "file": "TUSKENCHIEFTAIN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "TUSKENHUNTRESS",
+        "file": "TUSKENHUNTRESS.png",
+        "format": "png"
+      },
+      {
+        "gameId": "TUSKENRAIDER",
+        "file": "TUSKENRAIDER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "TUSKENSHAMAN",
+        "file": "TUSKENSHAMAN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "UGNAUGHT",
+        "file": "UGNAUGHT.png",
+        "format": "png"
+      },
+      {
+        "gameId": "UNDERCOVERLANDO",
+        "file": "UNDERCOVERLANDO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "URORRURRR",
+        "file": "URORRURRR.png",
+        "format": "png"
+      },
+      {
+        "gameId": "VADER",
+        "file": "VADER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "VANE",
+        "file": "VANE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "VANGUARDTEMPLEGUARD",
+        "file": "VANGUARDTEMPLEGUARD.png",
+        "format": "png"
+      },
+      {
+        "gameId": "VEERS",
+        "file": "VEERS.png",
+        "format": "png"
+      },
+      {
+        "gameId": "VISASMARR",
+        "file": "VISASMARR.png",
+        "format": "png"
+      },
+      {
+        "gameId": "WAMPA",
+        "file": "WAMPA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "WATTAMBOR",
+        "file": "WATTAMBOR.png",
+        "format": "png"
+      },
+      {
+        "gameId": "WEDGEANTILLES",
+        "file": "WEDGEANTILLES.png",
+        "format": "png"
+      },
+      {
+        "gameId": "WICKET",
+        "file": "WICKET.png",
+        "format": "png"
+      },
+      {
+        "gameId": "WRECKERS3",
+        "file": "WRECKERS3.png",
+        "format": "png"
+      },
+      {
+        "gameId": "YOUNGCHEWBACCA",
+        "file": "YOUNGCHEWBACCA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "YOUNGHAN",
+        "file": "YOUNGHAN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "YOUNGLANDO",
+        "file": "YOUNGLANDO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "ZAALBAR",
+        "file": "ZAALBAR.png",
+        "format": "png"
+      },
+      {
+        "gameId": "ZAMWESELL",
+        "file": "ZAMWESELL.png",
+        "format": "png"
+      },
+      {
+        "gameId": "ZEBS3",
+        "file": "ZEBS3.png",
+        "format": "png"
+      },
+      {
+        "gameId": "ZORIIBLISS_V2",
+        "file": "ZORIIBLISS_V2.png",
+        "format": "png"
+      }
+    ],
+    "ships": [
+      {
+        "gameId": "ARC170CLONESERGEANT",
+        "file": "ARC170CLONESERGEANT.png",
+        "format": "png"
+      },
+      {
+        "gameId": "ARC170REX",
+        "file": "ARC170REX.png",
+        "format": "png"
+      },
+      {
+        "gameId": "BLADEOFDORIN",
+        "file": "BLADEOFDORIN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CAPITALCHIMAERA",
+        "file": "CAPITALCHIMAERA.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CAPITALEXECUTOR",
+        "file": "CAPITALEXECUTOR.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CAPITALFINALIZER",
+        "file": "CAPITALFINALIZER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CAPITALJEDICRUISER",
+        "file": "CAPITALJEDICRUISER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CAPITALLEVIATHAN",
+        "file": "CAPITALLEVIATHAN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CAPITALMALEVOLENCE",
+        "file": "CAPITALMALEVOLENCE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CAPITALMONCALAMARICRUISER",
+        "file": "CAPITALMONCALAMARICRUISER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CAPITALNEGOTIATOR",
+        "file": "CAPITALNEGOTIATOR.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CAPITALPROFUNDITY",
+        "file": "CAPITALPROFUNDITY.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CAPITALRADDUS",
+        "file": "CAPITALRADDUS.png",
+        "format": "png"
+      },
+      {
+        "gameId": "CAPITALSTARDESTROYER",
+        "file": "CAPITALSTARDESTROYER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "COMEUPPANCE",
+        "file": "COMEUPPANCE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "COMMANDSHUTTLE",
+        "file": "COMMANDSHUTTLE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "EBONHAWK",
+        "file": "EBONHAWK.png",
+        "format": "png"
+      },
+      {
+        "gameId": "EMPERORSSHUTTLE",
+        "file": "EMPERORSSHUTTLE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "FIRSTORDERTIEECHELON",
+        "file": "FIRSTORDERTIEECHELON.png",
+        "format": "png"
+      },
+      {
+        "gameId": "FURYCLASSINTERCEPTOR",
+        "file": "FURYCLASSINTERCEPTOR.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GAUNTLETSTARFIGHTER",
+        "file": "GAUNTLETSTARFIGHTER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GEONOSIANSTARFIGHTER1",
+        "file": "GEONOSIANSTARFIGHTER1.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GEONOSIANSTARFIGHTER2",
+        "file": "GEONOSIANSTARFIGHTER2.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GEONOSIANSTARFIGHTER3",
+        "file": "GEONOSIANSTARFIGHTER3.png",
+        "format": "png"
+      },
+      {
+        "gameId": "GHOST",
+        "file": "GHOST.png",
+        "format": "png"
+      },
+      {
+        "gameId": "HOUNDSTOOTH",
+        "file": "HOUNDSTOOTH.png",
+        "format": "png"
+      },
+      {
+        "gameId": "HYENABOMBER",
+        "file": "HYENABOMBER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "IG2000",
+        "file": "IG2000.png",
+        "format": "png"
+      },
+      {
+        "gameId": "JEDISTARFIGHTERAHSOKATANO",
+        "file": "JEDISTARFIGHTERAHSOKATANO.png",
+        "format": "png"
+      },
+      {
+        "gameId": "JEDISTARFIGHTERANAKIN",
+        "file": "JEDISTARFIGHTERANAKIN.png",
+        "format": "png"
+      },
+      {
+        "gameId": "JEDISTARFIGHTERCONSULAR",
+        "file": "JEDISTARFIGHTERCONSULAR.png",
+        "format": "png"
+      },
+      {
+        "gameId": "MARAUDER",
+        "file": "MARAUDER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "MG100STARFORTRESSSF17",
+        "file": "MG100STARFORTRESSSF17.png",
+        "format": "png"
+      },
+      {
+        "gameId": "MILLENNIUMFALCON",
+        "file": "MILLENNIUMFALCON.png",
+        "format": "png"
+      },
+      {
+        "gameId": "MILLENNIUMFALCONEP7",
+        "file": "MILLENNIUMFALCONEP7.png",
+        "format": "png"
+      },
+      {
+        "gameId": "MILLENNIUMFALCONPRISTINE",
+        "file": "MILLENNIUMFALCONPRISTINE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "OUTRIDER",
+        "file": "OUTRIDER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "PHANTOM2",
+        "file": "PHANTOM2.png",
+        "format": "png"
+      },
+      {
+        "gameId": "PUNISHINGONE",
+        "file": "PUNISHINGONE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "RAVENSCLAW",
+        "file": "RAVENSCLAW.png",
+        "format": "png"
+      },
+      {
+        "gameId": "RAZORCREST",
+        "file": "RAZORCREST.png",
+        "format": "png"
+      },
+      {
+        "gameId": "ROGUEONESHIP",
+        "file": "ROGUEONESHIP.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SCYTHE",
+        "file": "SCYTHE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SITHBOMBER",
+        "file": "SITHBOMBER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SITHFIGHTER",
+        "file": "SITHFIGHTER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SITHINFILTRATOR",
+        "file": "SITHINFILTRATOR.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SITHSUPREMACYCLASS",
+        "file": "SITHSUPREMACYCLASS.png",
+        "format": "png"
+      },
+      {
+        "gameId": "SLAVE1",
+        "file": "SLAVE1.png",
+        "format": "png"
+      },
+      {
+        "gameId": "TIEADVANCED",
+        "file": "TIEADVANCED.png",
+        "format": "png"
+      },
+      {
+        "gameId": "TIEBOMBERIMPERIAL",
+        "file": "TIEBOMBERIMPERIAL.png",
+        "format": "png"
+      },
+      {
+        "gameId": "TIEDAGGER",
+        "file": "TIEDAGGER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "TIEDEFENDER",
+        "file": "TIEDEFENDER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "TIEFIGHTERFIRSTORDER",
+        "file": "TIEFIGHTERFIRSTORDER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "TIEFIGHTERFOSF",
+        "file": "TIEFIGHTERFOSF.png",
+        "format": "png"
+      },
+      {
+        "gameId": "TIEFIGHTERIMPERIAL",
+        "file": "TIEFIGHTERIMPERIAL.png",
+        "format": "png"
+      },
+      {
+        "gameId": "TIEINTERCEPTOR",
+        "file": "TIEINTERCEPTOR.png",
+        "format": "png"
+      },
+      {
+        "gameId": "TIEREAPER",
+        "file": "TIEREAPER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "TIESILENCER",
+        "file": "TIESILENCER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "UMBARANSTARFIGHTER",
+        "file": "UMBARANSTARFIGHTER.png",
+        "format": "png"
+      },
+      {
+        "gameId": "UWINGROGUEONE",
+        "file": "UWINGROGUEONE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "UWINGSCARIF",
+        "file": "UWINGSCARIF.png",
+        "format": "png"
+      },
+      {
+        "gameId": "VULTUREDROID",
+        "file": "VULTUREDROID.png",
+        "format": "png"
+      },
+      {
+        "gameId": "XANADUBLOOD",
+        "file": "XANADUBLOOD.png",
+        "format": "png"
+      },
+      {
+        "gameId": "XWINGBLACKONE",
+        "file": "XWINGBLACKONE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "XWINGREBEL",
+        "file": "XWINGREBEL.svg",
+        "format": "svg"
+      },
+      {
+        "gameId": "XWINGRED2",
+        "file": "XWINGRED2.png",
+        "format": "png"
+      },
+      {
+        "gameId": "XWINGRED3",
+        "file": "XWINGRED3.png",
+        "format": "png"
+      },
+      {
+        "gameId": "XWINGRESISTANCE",
+        "file": "XWINGRESISTANCE.png",
+        "format": "png"
+      },
+      {
+        "gameId": "YWINGCLONEWARS",
+        "file": "YWINGCLONEWARS.png",
+        "format": "png"
+      },
+      {
+        "gameId": "YWINGREBEL",
+        "file": "YWINGREBEL.png",
+        "format": "png"
+      }
+    ]
   }
 }

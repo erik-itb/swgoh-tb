@@ -1,0 +1,55 @@
+{
+  "downloadTime": "2025-09-22T04:57:55.268Z",
+  "results": [
+    {
+      "filename": "units.json",
+      "success": true,
+      "version": "0.37.0:LbGZ95TUS-W34i-fIm6DIA",
+      "dataCount": 2625,
+      "fileSize": "58165KB"
+    },
+    {
+      "filename": "units_pve.json",
+      "success": true,
+      "version": "0.37.0:LbGZ95TUS-W34i-fIm6DIA",
+      "dataCount": 7660,
+      "fileSize": "71093KB"
+    },
+    {
+      "filename": "territoryBattleDefinition.json",
+      "success": true,
+      "version": "0.37.0:LbGZ95TUS-W34i-fIm6DIA",
+      "dataCount": 5,
+      "fileSize": "1306KB"
+    },
+    {
+      "filename": "Loc_ENG_US.txt.json",
+      "success": true,
+      "version": "GK7HUbK7TuubpGVdAKHmDQ",
+      "dataCount": "N/A",
+      "fileSize": "13439KB"
+    },
+    {
+      "filename": "ability.json",
+      "success": true,
+      "version": "0.37.0:LbGZ95TUS-W34i-fIm6DIA",
+      "dataCount": 5907,
+      "fileSize": "15659KB"
+    },
+    {
+      "filename": "skill.json",
+      "success": true,
+      "version": "0.37.0:LbGZ95TUS-W34i-fIm6DIA",
+      "dataCount": 1770,
+      "fileSize": "2560KB"
+    },
+    {
+      "filename": "equipment.json",
+      "success": true,
+      "version": "0.37.0:LbGZ95TUS-W34i-fIm6DIA",
+      "dataCount": 671,
+      "fileSize": "831KB"
+    }
+  ],
+  "success": true
+}

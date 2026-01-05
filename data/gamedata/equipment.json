@@ -1,5 +1,5 @@
 {
-  "version": "0.37.0:LbGZ95TUS-W34i-fIm6DIA",
+  "version": "0.38.1:So2YPkkwQNi9kRKsi4dIwQ",
   "data": [
     {
       "lookupMission": [
@@ -300,16 +300,6 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M01",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "FLASH",
             "campaignNodeId": "FLASH_LUKE_01_L20",
@@ -375,6 +365,16 @@
             "campaignNodeId": "FLASH_LUKE_01_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M01",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi01"
           }
         }
       ],
@@ -2506,6 +2506,146 @@
         {
           "requirementId": [],
           "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L20",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L20",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L30",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L30",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L40",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L40",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L50",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L50",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L60",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L60",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L70",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L70",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
             "campaignId": "C01SP",
             "campaignMapId": "M03",
             "campaignNodeId": "SHP01",
@@ -2521,146 +2661,6 @@
             "campaignNodeId": "SHPH01",
             "campaignNodeDifficulty": 5,
             "campaignMissionId": "Mi02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L20",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L20",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L30",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L30",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L40",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L40",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L50",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L50",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L60",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L60",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L70",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L70",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L80",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L80",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER02"
           }
         }
       ],
@@ -3322,26 +3322,6 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M03",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi07"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M04",
-            "campaignNodeId": "SHPH01",
-            "campaignNodeDifficulty": 5,
-            "campaignMissionId": "Mi01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "TACTICS",
             "campaignNodeId": "TACTICS_NS_01_L50",
@@ -3377,6 +3357,26 @@
             "campaignNodeId": "TACTICS_NS_01_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M03",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi07"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M04",
+            "campaignNodeId": "SHPH01",
+            "campaignNodeDifficulty": 5,
+            "campaignMissionId": "Mi01"
           }
         }
       ],
@@ -3690,26 +3690,6 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M03",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi05"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M03",
-            "campaignNodeId": "SHPH01",
-            "campaignNodeDifficulty": 5,
-            "campaignMissionId": "Mi04"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "TACTICS",
             "campaignNodeId": "TACTICS_NS_01_L50",
@@ -3816,6 +3796,26 @@
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER01"
           }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M03",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi05"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M03",
+            "campaignNodeId": "SHPH01",
+            "campaignNodeDifficulty": 5,
+            "campaignMissionId": "Mi04"
+          }
         }
       ],
       "raidLookup": [],
@@ -3914,36 +3914,6 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M01",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M01",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi07"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M01",
-            "campaignNodeId": "SHPH01",
-            "campaignNodeDifficulty": 5,
-            "campaignMissionId": "Mi03"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "TACTICS",
             "campaignNodeId": "TACTICS_NS_01_L50",
@@ -3979,6 +3949,36 @@
             "campaignNodeId": "TACTICS_NS_01_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M01",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M01",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi07"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M01",
+            "campaignNodeId": "SHPH01",
+            "campaignNodeDifficulty": 5,
+            "campaignMissionId": "Mi03"
           }
         }
       ],
@@ -4197,26 +4197,6 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M03",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi06"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M03",
-            "campaignNodeId": "SHPH01",
-            "campaignNodeDifficulty": 5,
-            "campaignMissionId": "Mi05"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "TACTICS",
             "campaignNodeId": "TACTICS_NS_01_L50",
@@ -4252,6 +4232,26 @@
             "campaignNodeId": "TACTICS_NS_01_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M03",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi06"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M03",
+            "campaignNodeId": "SHPH01",
+            "campaignNodeDifficulty": 5,
+            "campaignMissionId": "Mi05"
           }
         }
       ],
@@ -4848,36 +4848,6 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M01",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M03",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M03",
-            "campaignNodeId": "SHPH01",
-            "campaignNodeDifficulty": 5,
-            "campaignMissionId": "Mi01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "FLASH",
             "campaignNodeId": "FLASH_LUKE_01_L20",
@@ -4943,6 +4913,36 @@
             "campaignNodeId": "FLASH_LUKE_01_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M01",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M03",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M03",
+            "campaignNodeId": "SHPH01",
+            "campaignNodeDifficulty": 5,
+            "campaignMissionId": "Mi01"
           }
         }
       ],
@@ -11557,6 +11557,201 @@
         "bonusQuantity": 0
       },
       "mark": "Mk VII",
+      "obtainableTime": "0",
+      "type": 1,
+      "requiredRarity": 8,
+      "findFlowDisabled": false
+    },
+    {
+      "lookupMission": [],
+      "raidLookup": [],
+      "actionLinkLookup": [],
+      "raidImmediateLookup": [],
+      "id": "175",
+      "nameKey": "EQUIPMENT_175_NAME",
+      "iconKey": "tex.equip_armatek_visor",
+      "requiredLevel": 85,
+      "equipmentStat": {
+        "stat": [
+          {
+            "unitStatId": 1,
+            "statValueDecimal": "65000000",
+            "unscaledDecimalValue": "650000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 4,
+            "statValueDecimal": "1000000",
+            "unscaledDecimalValue": "10000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 8,
+            "statValueDecimal": "300000",
+            "unscaledDecimalValue": "3000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 5,
+            "statValueDecimal": "60000",
+            "unscaledDecimalValue": "600000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          }
+        ]
+      },
+      "recipeId": "recipe175",
+      "tier": 12,
+      "sellValue": {
+        "currency": 1,
+        "quantity": "1000",
+        "bonusQuantity": 0
+      },
+      "mark": "Mk XII",
+      "obtainableTime": "0",
+      "type": 1,
+      "requiredRarity": 4,
+      "findFlowDisabled": false
+    },
+    {
+      "lookupMission": [],
+      "raidLookup": [],
+      "actionLinkLookup": [],
+      "raidImmediateLookup": [],
+      "id": "176",
+      "nameKey": "EQUIPMENT_176_NAME",
+      "iconKey": "tex.equip_holotargetlens",
+      "requiredLevel": 85,
+      "equipmentStat": {
+        "stat": [
+          {
+            "unitStatId": 17,
+            "statValueDecimal": "1000",
+            "unscaledDecimalValue": "10000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 18,
+            "statValueDecimal": "1000",
+            "unscaledDecimalValue": "10000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 1,
+            "statValueDecimal": "50000000",
+            "unscaledDecimalValue": "500000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 5,
+            "statValueDecimal": "60000",
+            "unscaledDecimalValue": "600000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          }
+        ]
+      },
+      "recipeId": "recipe176",
+      "tier": 12,
+      "sellValue": {
+        "currency": 1,
+        "quantity": "1000",
+        "bonusQuantity": 0
+      },
+      "mark": "Mk XII",
+      "obtainableTime": "0",
+      "type": 1,
+      "requiredRarity": 4,
+      "findFlowDisabled": false
+    },
+    {
+      "lookupMission": [],
+      "raidLookup": [],
+      "actionLinkLookup": [],
+      "raidImmediateLookup": [],
+      "id": "177",
+      "nameKey": "EQUIPMENT_177_NAME",
+      "iconKey": "tex.equip_datapad",
+      "requiredLevel": 85,
+      "equipmentStat": {
+        "stat": [
+          {
+            "unitStatId": 4,
+            "statValueDecimal": "1100000",
+            "unscaledDecimalValue": "11000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 7,
+            "statValueDecimal": "1400000",
+            "unscaledDecimalValue": "14000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 15,
+            "statValueDecimal": "600000",
+            "unscaledDecimalValue": "6000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          }
+        ]
+      },
+      "recipeId": "recipe177",
+      "tier": 12,
+      "sellValue": {
+        "currency": 1,
+        "quantity": "970",
+        "bonusQuantity": 0
+      },
+      "mark": "Mk XII",
+      "obtainableTime": "0",
+      "type": 1,
+      "requiredRarity": 4,
+      "findFlowDisabled": false
+    },
+    {
+      "lookupMission": [],
+      "raidLookup": [],
+      "actionLinkLookup": [],
+      "raidImmediateLookup": [],
+      "id": "178",
+      "nameKey": "EQUIPMENT_178_NAME",
+      "iconKey": "tex.equip_datapad",
+      "requiredLevel": 1,
+      "equipmentStat": {
+        "stat": [
+          {
+            "unitStatId": 4,
+            "statValueDecimal": "250000",
+            "unscaledDecimalValue": "2500000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 9,
+            "statValueDecimal": "150000",
+            "unscaledDecimalValue": "1500000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          }
+        ]
+      },
+      "recipeId": "recipe178",
+      "tier": 7,
+      "sellValue": {
+        "currency": 1,
+        "quantity": "700",
+        "bonusQuantity": 0
+      },
+      "mark": "Mk III",
       "obtainableTime": "0",
       "type": 1,
       "requiredRarity": 8,
@@ -24615,26 +24810,6 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M03",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi04"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M03",
-            "campaignNodeId": "SHPH01",
-            "campaignNodeDifficulty": 5,
-            "campaignMissionId": "Mi03"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "FLASH",
             "campaignNodeId": "FLASH_LUKE_01_L20",
@@ -24700,6 +24875,26 @@
             "campaignNodeId": "FLASH_LUKE_01_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M03",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M03",
+            "campaignNodeId": "SHPH01",
+            "campaignNodeDifficulty": 5,
+            "campaignMissionId": "Mi03"
           }
         }
       ],
@@ -25521,6 +25716,146 @@
         {
           "requirementId": [],
           "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L20",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L20",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L30",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L30",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L40",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L40",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L50",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L50",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L60",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L60",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L70",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L70",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
             "campaignId": "C01SP",
             "campaignMapId": "M02",
             "campaignNodeId": "SHP01",
@@ -25536,146 +25871,6 @@
             "campaignNodeId": "SHPH01",
             "campaignNodeDifficulty": 5,
             "campaignMissionId": "Mi04"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L20",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L20",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L30",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L30",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L40",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L40",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L50",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L50",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L60",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L60",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L70",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L70",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L80",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L80",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER02"
           }
         }
       ],
@@ -27250,26 +27445,6 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M02",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi05"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M02",
-            "campaignNodeId": "SHPH01",
-            "campaignNodeDifficulty": 5,
-            "campaignMissionId": "Mi02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "CHALLENGES",
             "campaignNodeId": "EQUIPMENT_STRENGTH",
@@ -27405,6 +27580,76 @@
             "campaignNodeId": "FLASH_LUKE_01_L60",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L60",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L70",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L70",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M02",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi05"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M02",
+            "campaignNodeId": "SHPH01",
+            "campaignNodeDifficulty": 5,
+            "campaignMissionId": "Mi02"
           }
         }
       ],
@@ -27938,36 +28183,6 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M01",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M01",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi06"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M02",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "CHALLENGES",
             "campaignNodeId": "EQUIPMENT_AGILITY",
@@ -28124,6 +28339,66 @@
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER01"
           }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L70",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M01",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M01",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi06"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M02",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi02"
+          }
         }
       ],
       "raidLookup": [],
@@ -28274,26 +28549,6 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M04",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi04"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M04",
-            "campaignNodeId": "SHPH01",
-            "campaignNodeDifficulty": 5,
-            "campaignMissionId": "Mi05"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "CHALLENGES",
             "campaignNodeId": "EQUIPMENT_INTELLIGENCE",
@@ -28339,6 +28594,26 @@
             "campaignNodeId": "EQUIPMENT_INTELLIGENCE",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "DIFF05"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M04",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M04",
+            "campaignNodeId": "SHPH01",
+            "campaignNodeDifficulty": 5,
+            "campaignMissionId": "Mi05"
           }
         }
       ],
@@ -28757,6 +29032,216 @@
         {
           "requirementId": [],
           "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L20",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L20",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L20",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L30",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L30",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L30",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L40",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L40",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L40",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L50",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L50",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L50",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L60",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L60",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L60",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L70",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L70",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L70",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
             "campaignId": "C01SP",
             "campaignMapId": "M04",
             "campaignNodeId": "SHP01",
@@ -28772,216 +29257,6 @@
             "campaignNodeId": "SHPH01",
             "campaignNodeDifficulty": 5,
             "campaignMissionId": "Mi02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L20",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L20",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER03"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L20",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER04"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L30",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L30",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER03"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L30",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER04"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L40",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L40",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER03"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L40",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER04"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L50",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L50",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER03"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L50",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER04"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L60",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L60",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER03"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L60",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER04"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L70",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L70",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER03"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L70",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER04"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L80",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L80",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER03"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "FLASH",
-            "campaignNodeId": "FLASH_LUKE_01_L80",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER04"
           }
         }
       ],
@@ -31663,16 +31938,6 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M02",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi05"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "SCHEDULED",
             "campaignNodeId": "NODE_EVENT_ASSAULT_EWOK",
@@ -31698,6 +31963,16 @@
             "campaignNodeId": "NODE_EVENT_ASSAULT_EWOK",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "DIFF03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M02",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi05"
           }
         }
       ],
@@ -31935,26 +32210,6 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M01",
-            "campaignNodeId": "SHPH01",
-            "campaignNodeDifficulty": 5,
-            "campaignMissionId": "Mi01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M02",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "CHALLENGES",
             "campaignNodeId": "EQUIPMENT_STRENGTH",
@@ -32131,6 +32386,96 @@
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
           }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L60",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L70",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L70",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L70",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M01",
+            "campaignNodeId": "SHPH01",
+            "campaignNodeDifficulty": 5,
+            "campaignMissionId": "Mi01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M02",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi01"
+          }
         }
       ],
       "raidLookup": [],
@@ -32256,16 +32601,6 @@
             "campaignNodeId": "N01",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "Mi08"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M02",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi02"
           }
         },
         {
@@ -32437,6 +32772,16 @@
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER04"
           }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M02",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi02"
+          }
         }
       ],
       "raidLookup": [],
@@ -32537,6 +32882,36 @@
         {
           "requirementId": [],
           "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_EWOK",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_EWOK",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_EWOK",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
             "campaignId": "C01SP",
             "campaignMapId": "M04",
             "campaignNodeId": "SHP01",
@@ -32572,36 +32947,6 @@
             "campaignNodeId": "SHPH01",
             "campaignNodeDifficulty": 5,
             "campaignMissionId": "Mi04"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_EWOK",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_EWOK",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_EWOK",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF03"
           }
         }
       ],
@@ -32673,101 +33018,101 @@
         {
           "requirementId": [],
           "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_EWOK",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_EWOK",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_EWOK",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
             "campaignId": "C01SP",
             "campaignMapId": "M02",
             "campaignNodeId": "SHP01",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "Mi03"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_EWOK",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_EWOK",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_EWOK",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF03"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF03"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF03"
           }
         }
       ],
@@ -32859,16 +33204,6 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M05",
-            "campaignNodeId": "SHPH01",
-            "campaignNodeDifficulty": 5,
-            "campaignMissionId": "Mi05"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "CHALLENGES",
             "campaignNodeId": "EQUIPMENT_INTELLIGENCE",
@@ -32954,6 +33289,16 @@
             "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "DIFF03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M05",
+            "campaignNodeId": "SHPH01",
+            "campaignNodeDifficulty": 5,
+            "campaignMissionId": "Mi05"
           }
         }
       ],
@@ -33151,6 +33496,66 @@
         {
           "requirementId": [],
           "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
             "campaignId": "C01SP",
             "campaignMapId": "M01",
             "campaignNodeId": "SHPH01",
@@ -33176,66 +33581,6 @@
             "campaignNodeId": "SHP01",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "Mi04"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF03"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF03"
           }
         }
       ],
@@ -33317,71 +33662,71 @@
         {
           "requirementId": [],
           "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
             "campaignId": "C01SP",
             "campaignMapId": "M02",
             "campaignNodeId": "SHP01",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "Mi06"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF03"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF03"
           }
         }
       ],
@@ -33669,6 +34014,66 @@
         {
           "requirementId": [],
           "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
             "campaignId": "TW_EVENTS",
             "campaignMapId": "PRELUDE",
             "campaignNodeId": "TW_PRELUDE_60",
@@ -33724,66 +34129,6 @@
             "campaignNodeId": "SHPH01",
             "campaignNodeDifficulty": 5,
             "campaignMissionId": "Mi04"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF03"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF03"
           }
         }
       ],
@@ -33885,6 +34230,66 @@
         {
           "requirementId": [],
           "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
             "campaignId": "C01SP",
             "campaignMapId": "M02",
             "campaignNodeId": "SHP01",
@@ -33920,66 +34325,6 @@
             "campaignNodeId": "SHPH01",
             "campaignNodeDifficulty": 5,
             "campaignMissionId": "Mi06"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF03"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF03"
           }
         }
       ],
@@ -34051,6 +34396,66 @@
         {
           "requirementId": [],
           "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
             "campaignId": "C01SP",
             "campaignMapId": "M02",
             "campaignNodeId": "SHPH01",
@@ -34066,66 +34471,6 @@
             "campaignNodeId": "SHP01",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "Mi01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF03"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF03"
           }
         }
       ],
@@ -34197,6 +34542,96 @@
         {
           "requirementId": [],
           "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_EWOK",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_EWOK",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_EWOK",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "DIFF03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
             "campaignId": "C01SP",
             "campaignMapId": "M02",
             "campaignNodeId": "SHPH01",
@@ -34222,96 +34657,6 @@
             "campaignNodeId": "SHP01",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "Mi02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_EWOK",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_EWOK",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_EWOK",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF03"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_JEDI",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF03"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "EVENTS",
-            "campaignMapId": "SCHEDULED",
-            "campaignNodeId": "NODE_EVENT_ASSAULT_INQUISITOR",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "DIFF03"
           }
         }
       ],
@@ -34398,56 +34743,6 @@
             "campaignNodeId": "N01",
             "campaignNodeDifficulty": 5,
             "campaignMissionId": "Mi07"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "TW_EVENTS",
-            "campaignMapId": "PRELUDE",
-            "campaignNodeId": "TW_PRELUDE_60",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "TW_EVENTS",
-            "campaignMapId": "PRELUDE",
-            "campaignNodeId": "TW_PRELUDE_70",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "TW_EVENTS",
-            "campaignMapId": "PRELUDE",
-            "campaignNodeId": "TW_PRELUDE_80",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "TW_EVENTS",
-            "campaignMapId": "PRELUDE",
-            "campaignNodeId": "TW_PRELUDE_80",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M02",
-            "campaignNodeId": "SHPH01",
-            "campaignNodeDifficulty": 5,
-            "campaignMissionId": "Mi05"
           }
         },
         {
@@ -34565,7 +34860,7 @@
           "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "MARQUEE",
-            "campaignNodeId": "PUNISHINGONE_L80",
+            "campaignNodeId": "INQUISITORBARRISS_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER02"
           }
@@ -34575,9 +34870,99 @@
           "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "MARQUEE",
-            "campaignNodeId": "ROGUEONESHIP_L80",
+            "campaignNodeId": "VADERDUELSEND_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "ASAJJDARKDISCIPLE_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "STORMTROOPERLUKE_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "YODACHEWBACCA_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "PUNISHINGONE_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "TW_EVENTS",
+            "campaignMapId": "PRELUDE",
+            "campaignNodeId": "TW_PRELUDE_60",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "TW_EVENTS",
+            "campaignMapId": "PRELUDE",
+            "campaignNodeId": "TW_PRELUDE_70",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "TW_EVENTS",
+            "campaignMapId": "PRELUDE",
+            "campaignNodeId": "TW_PRELUDE_80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "TW_EVENTS",
+            "campaignMapId": "PRELUDE",
+            "campaignNodeId": "TW_PRELUDE_80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M02",
+            "campaignNodeId": "SHPH01",
+            "campaignNodeDifficulty": 5,
+            "campaignMissionId": "Mi05"
           }
         }
       ],
@@ -34664,46 +35049,6 @@
             "campaignNodeId": "N01",
             "campaignNodeDifficulty": 5,
             "campaignMissionId": "Mi08"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "TW_EVENTS",
-            "campaignMapId": "PRELUDE",
-            "campaignNodeId": "TW_PRELUDE_70",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "TW_EVENTS",
-            "campaignMapId": "PRELUDE",
-            "campaignNodeId": "TW_PRELUDE_80",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "TW_EVENTS",
-            "campaignMapId": "PRELUDE",
-            "campaignNodeId": "TW_PRELUDE_80",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M03",
-            "campaignNodeId": "SHPH01",
-            "campaignNodeDifficulty": 5,
-            "campaignMissionId": "Mi02"
           }
         },
         {
@@ -34890,8 +35235,68 @@
           "requirementId": [],
           "missionIdentifier": {
             "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ERA_ANALYSIS_PARALYSIS",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
             "campaignMapId": "MARQUEE",
             "campaignNodeId": "CROSSHAIRS3_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "INQUISITORBARRISS_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "VADERDUELSEND_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "ASAJJDARKDISCIPLE_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "STORMTROOPERLUKE_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "YODACHEWBACCA_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER02"
           }
@@ -34904,6 +35309,142 @@
             "campaignNodeId": "PUNISHINGONE_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "TW_EVENTS",
+            "campaignMapId": "PRELUDE",
+            "campaignNodeId": "TW_PRELUDE_70",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "TW_EVENTS",
+            "campaignMapId": "PRELUDE",
+            "campaignNodeId": "TW_PRELUDE_80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "TW_EVENTS",
+            "campaignMapId": "PRELUDE",
+            "campaignNodeId": "TW_PRELUDE_80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M03",
+            "campaignNodeId": "SHPH01",
+            "campaignNodeDifficulty": 5,
+            "campaignMissionId": "Mi02"
+          }
+        },
+        {
+          "requirementId": [
+            "find_flow_first_time_reward"
+          ],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "LEGENDARY",
+            "campaignNodeId": "AGGRESSIVE_NEGOTIATIONS",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER06"
+          }
+        },
+        {
+          "requirementId": [
+            "find_flow_first_time_reward"
+          ],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L20",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [
+            "find_flow_first_time_reward"
+          ],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L30",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [
+            "find_flow_first_time_reward"
+          ],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L40",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [
+            "find_flow_first_time_reward"
+          ],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L50",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [
+            "find_flow_first_time_reward"
+          ],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L60",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [
+            "find_flow_first_time_reward"
+          ],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L70",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [
+            "find_flow_first_time_reward"
+          ],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
           }
         }
       ],
@@ -34970,26 +35511,6 @@
             "campaignNodeId": "N01",
             "campaignNodeDifficulty": 5,
             "campaignMissionId": "Mi07"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M02",
-            "campaignNodeId": "SHPH01",
-            "campaignNodeDifficulty": 5,
-            "campaignMissionId": "Mi04"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M03",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi03"
           }
         },
         {
@@ -35080,6 +35601,26 @@
             "campaignNodeId": "NODE_EVENT_ASSAULT_DARKSIDE",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "DIFF03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M02",
+            "campaignNodeId": "SHPH01",
+            "campaignNodeDifficulty": 5,
+            "campaignMissionId": "Mi04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M03",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi03"
           }
         }
       ],
@@ -35333,36 +35874,6 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "TW_EVENTS",
-            "campaignMapId": "PRELUDE",
-            "campaignNodeId": "TW_PRELUDE_80",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "TW_EVENTS",
-            "campaignMapId": "PRELUDE",
-            "campaignNodeId": "TW_PRELUDE_80",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "TIER02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M03",
-            "campaignNodeId": "SHPH01",
-            "campaignNodeDifficulty": 5,
-            "campaignMissionId": "Mi04"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "CHALLENGES",
             "campaignNodeId": "EQUIPMENT_INTELLIGENCE",
@@ -35484,6 +35995,16 @@
           "requirementId": [],
           "missionIdentifier": {
             "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ERA_ANALYSIS_PARALYSIS",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
             "campaignMapId": "TACTICS",
             "campaignNodeId": "TACTICS_NS_01_L50",
             "campaignNodeDifficulty": 4,
@@ -35535,7 +36056,7 @@
           "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "MARQUEE",
-            "campaignNodeId": "PUNISHINGONE_L80",
+            "campaignNodeId": "INQUISITORBARRISS_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER02"
           }
@@ -35545,9 +36066,79 @@
           "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "MARQUEE",
-            "campaignNodeId": "ROGUEONESHIP_L80",
+            "campaignNodeId": "VADERDUELSEND_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "ASAJJDARKDISCIPLE_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "STORMTROOPERLUKE_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "YODACHEWBACCA_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "PUNISHINGONE_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "TW_EVENTS",
+            "campaignMapId": "PRELUDE",
+            "campaignNodeId": "TW_PRELUDE_80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER01"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "TW_EVENTS",
+            "campaignMapId": "PRELUDE",
+            "campaignNodeId": "TW_PRELUDE_80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M03",
+            "campaignNodeId": "SHPH01",
+            "campaignNodeDifficulty": 5,
+            "campaignMissionId": "Mi04"
           }
         },
         {
@@ -35594,6 +36185,78 @@
             "campaignId": "EVENTS",
             "campaignMapId": "FLASH",
             "campaignNodeId": "FLASH_LUKE_01_L20",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [
+            "find_flow_first_time_reward"
+          ],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L30",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [
+            "find_flow_first_time_reward"
+          ],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L40",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [
+            "find_flow_first_time_reward"
+          ],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L50",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [
+            "find_flow_first_time_reward"
+          ],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L60",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [
+            "find_flow_first_time_reward"
+          ],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L70",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [
+            "find_flow_first_time_reward"
+          ],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "FLASH",
+            "campaignNodeId": "FLASH_LUKE_01_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
           }
@@ -35763,26 +36426,6 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M03",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi07"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M04",
-            "campaignNodeId": "SHPH01",
-            "campaignNodeDifficulty": 5,
-            "campaignMissionId": "Mi01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "SCHEDULED",
             "campaignNodeId": "NODE_EVENT_ASSAULT_EWOK",
@@ -35808,6 +36451,26 @@
             "campaignNodeId": "NODE_EVENT_ASSAULT_EWOK",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "DIFF03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M03",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi07"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M04",
+            "campaignNodeId": "SHPH01",
+            "campaignNodeDifficulty": 5,
+            "campaignMissionId": "Mi01"
           }
         }
       ],
@@ -35859,16 +36522,6 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M04",
-            "campaignNodeId": "SHPH01",
-            "campaignNodeDifficulty": 5,
-            "campaignMissionId": "Mi05"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "CHALLENGES",
             "campaignNodeId": "EQUIPMENT_INTELLIGENCE",
@@ -35894,6 +36547,16 @@
             "campaignNodeId": "NODE_EVENT_TRAINING_DROID_SMUGGLING",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "DIFF04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M04",
+            "campaignNodeId": "SHPH01",
+            "campaignNodeDifficulty": 5,
+            "campaignMissionId": "Mi05"
           }
         }
       ],
@@ -36035,21 +36698,21 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M05",
-            "campaignNodeId": "SHPH01",
-            "campaignNodeDifficulty": 5,
-            "campaignMissionId": "Mi05"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "CHALLENGES",
             "campaignNodeId": "EQUIPMENT_INTELLIGENCE",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "DIFF05"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M05",
+            "campaignNodeId": "SHPH01",
+            "campaignNodeDifficulty": 5,
+            "campaignMissionId": "Mi05"
           }
         }
       ],
@@ -36219,7 +36882,7 @@
           "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "MARQUEE",
-            "campaignNodeId": "PUNISHINGONE_L80",
+            "campaignNodeId": "INQUISITORBARRISS_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER02"
           }
@@ -36229,7 +36892,47 @@
           "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "MARQUEE",
-            "campaignNodeId": "ROGUEONESHIP_L80",
+            "campaignNodeId": "VADERDUELSEND_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "ASAJJDARKDISCIPLE_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "STORMTROOPERLUKE_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "YODACHEWBACCA_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "PUNISHINGONE_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER02"
           }
@@ -36401,21 +37104,21 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M05",
-            "campaignNodeId": "SHPH01",
-            "campaignNodeDifficulty": 5,
-            "campaignMissionId": "Mi02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "CHALLENGES",
             "campaignNodeId": "EQUIPMENT_AGILITY",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "DIFF05"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M05",
+            "campaignNodeId": "SHPH01",
+            "campaignNodeDifficulty": 5,
+            "campaignMissionId": "Mi02"
           }
         }
       ],
@@ -36557,21 +37260,21 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M05",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi04"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "SCHEDULED",
             "campaignNodeId": "NODE_EVENT_ASSAULT_DARKSIDE",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "DIFF03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M05",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi04"
           }
         }
       ],
@@ -36613,21 +37316,21 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M05",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi03"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "SCHEDULED",
             "campaignNodeId": "NODE_EVENT_ASSAULT_DARKSIDE",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "DIFF03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M05",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi03"
           }
         }
       ],
@@ -36669,21 +37372,21 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M05",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi02"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "SCHEDULED",
             "campaignNodeId": "NODE_EVENT_ASSAULT_DARKSIDE",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "DIFF03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M05",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi02"
           }
         }
       ],
@@ -36748,6 +37451,16 @@
             "campaignId": "EVENTS",
             "campaignMapId": "SCHEDULED",
             "campaignNodeId": "NODE_EVENT_ERA_RAIDERS_OF_THE_OUTER_RIM",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ERA_ANALYSIS_PARALYSIS",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
           }
@@ -36834,6 +37547,16 @@
             "campaignId": "EVENTS",
             "campaignMapId": "SCHEDULED",
             "campaignNodeId": "NODE_EVENT_ERA_RAIDERS_OF_THE_OUTER_RIM",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ERA_ANALYSIS_PARALYSIS",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
           }
@@ -36933,26 +37656,6 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M04",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi04"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M05",
-            "campaignNodeId": "SHPH01",
-            "campaignNodeDifficulty": 5,
-            "campaignMissionId": "Mi01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "SCHEDULED",
             "campaignNodeId": "NODE_EVENT_ERA_BATTLE_KNIGHTFALL",
@@ -36978,6 +37681,36 @@
             "campaignNodeId": "NODE_EVENT_ERA_RAIDERS_OF_THE_OUTER_RIM",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ERA_ANALYSIS_PARALYSIS",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M04",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M05",
+            "campaignNodeId": "SHPH01",
+            "campaignNodeDifficulty": 5,
+            "campaignMissionId": "Mi01"
           }
         }
       ],
@@ -37398,16 +38131,6 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M05",
-            "campaignNodeId": "SHPH01",
-            "campaignNodeDifficulty": 5,
-            "campaignMissionId": "Mi03"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "CHALLENGES",
             "campaignNodeId": "EQUIPMENT_INTELLIGENCE",
@@ -37450,7 +38173,7 @@
           "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "MARQUEE",
-            "campaignNodeId": "PUNISHINGONE_L80",
+            "campaignNodeId": "INQUISITORBARRISS_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER02"
           }
@@ -37460,9 +38183,59 @@
           "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "MARQUEE",
-            "campaignNodeId": "ROGUEONESHIP_L80",
+            "campaignNodeId": "VADERDUELSEND_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "ASAJJDARKDISCIPLE_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "STORMTROOPERLUKE_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "YODACHEWBACCA_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "PUNISHINGONE_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M05",
+            "campaignNodeId": "SHPH01",
+            "campaignNodeDifficulty": 5,
+            "campaignMissionId": "Mi03"
           }
         },
         {
@@ -37880,16 +38653,6 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M05",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi06"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "LEGENDARY",
             "campaignNodeId": "GRANDMASTERS_TRAINING_MYTHIC",
@@ -37966,6 +38729,26 @@
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
           }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ERA_ANALYSIS_PARALYSIS",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M05",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi06"
+          }
         }
       ],
       "raidLookup": [],
@@ -38032,16 +38815,6 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M05",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi07"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "SCHEDULED",
             "campaignNodeId": "NODE_EVENT_ASSAULT_DARKSIDE",
@@ -38098,6 +38871,26 @@
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
           }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ERA_ANALYSIS_PARALYSIS",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M05",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi07"
+          }
         }
       ],
       "raidLookup": [],
@@ -38125,16 +38918,6 @@
     },
     {
       "lookupMission": [
-        {
-          "requirementId": [],
-          "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M05",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi08"
-          }
-        },
         {
           "requirementId": [],
           "missionIdentifier": {
@@ -38183,6 +38966,26 @@
             "campaignNodeId": "NODE_EVENT_ERA_RAIDERS_OF_THE_OUTER_RIM",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ERA_ANALYSIS_PARALYSIS",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M05",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi08"
           }
         }
       ],
@@ -38257,6 +39060,16 @@
             "campaignId": "EVENTS",
             "campaignMapId": "SCHEDULED",
             "campaignNodeId": "NODE_EVENT_ERA_RAIDERS_OF_THE_OUTER_RIM",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ERA_ANALYSIS_PARALYSIS",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
           }
@@ -38353,6 +39166,16 @@
             "campaignId": "EVENTS",
             "campaignMapId": "SCHEDULED",
             "campaignNodeId": "NODE_EVENT_ERA_RAIDERS_OF_THE_OUTER_RIM",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ERA_ANALYSIS_PARALYSIS",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
           }
@@ -38497,6 +39320,16 @@
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
           }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ERA_ANALYSIS_PARALYSIS",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
         }
       ],
       "raidLookup": [],
@@ -38605,6 +39438,16 @@
             "campaignId": "EVENTS",
             "campaignMapId": "SCHEDULED",
             "campaignNodeId": "NODE_EVENT_ERA_RAIDERS_OF_THE_OUTER_RIM",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ERA_ANALYSIS_PARALYSIS",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
           }
@@ -38719,6 +39562,16 @@
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
           }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ERA_ANALYSIS_PARALYSIS",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
         }
       ],
       "raidLookup": [],
@@ -38807,6 +39660,16 @@
             "campaignId": "EVENTS",
             "campaignMapId": "SCHEDULED",
             "campaignNodeId": "NODE_EVENT_ERA_RAIDERS_OF_THE_OUTER_RIM",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ERA_ANALYSIS_PARALYSIS",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
           }
@@ -38908,6 +39771,16 @@
             "campaignId": "EVENTS",
             "campaignMapId": "SCHEDULED",
             "campaignNodeId": "NODE_EVENT_ERA_RAIDERS_OF_THE_OUTER_RIM",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ERA_ANALYSIS_PARALYSIS",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
           }
@@ -39032,6 +39905,16 @@
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
           }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ERA_ANALYSIS_PARALYSIS",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
         }
       ],
       "raidLookup": [],
@@ -39120,6 +40003,16 @@
             "campaignId": "EVENTS",
             "campaignMapId": "SCHEDULED",
             "campaignNodeId": "NODE_EVENT_ERA_RAIDERS_OF_THE_OUTER_RIM",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ERA_ANALYSIS_PARALYSIS",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
           }
@@ -39234,6 +40127,16 @@
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
           }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ERA_ANALYSIS_PARALYSIS",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
         }
       ],
       "raidLookup": [],
@@ -39289,16 +40192,6 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M04",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi05"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "SCHEDULED",
             "campaignNodeId": "NODE_EVENT_ERA_BATTLE_KNIGHTFALL",
@@ -39324,6 +40217,26 @@
             "campaignNodeId": "NODE_EVENT_ERA_RAIDERS_OF_THE_OUTER_RIM",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ERA_ANALYSIS_PARALYSIS",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M04",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi05"
           }
         }
       ],
@@ -39405,16 +40318,6 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M03",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "SCHEDULED",
             "campaignNodeId": "NODE_EVENT_ERA_BATTLE_KNIGHTFALL",
@@ -39440,6 +40343,26 @@
             "campaignNodeId": "NODE_EVENT_ERA_RAIDERS_OF_THE_OUTER_RIM",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ERA_ANALYSIS_PARALYSIS",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M03",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi01"
           }
         }
       ],
@@ -39521,16 +40444,6 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M02",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi05"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "SCHEDULED",
             "campaignNodeId": "NODE_EVENT_ERA_BATTLE_KNIGHTFALL",
@@ -39556,6 +40469,26 @@
             "campaignNodeId": "NODE_EVENT_ERA_RAIDERS_OF_THE_OUTER_RIM",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ERA_ANALYSIS_PARALYSIS",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M02",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi05"
           }
         }
       ],
@@ -39637,16 +40570,6 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M05",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi01"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "SCHEDULED",
             "campaignNodeId": "NODE_EVENT_ERA_BATTLE_KNIGHTFALL",
@@ -39672,6 +40595,26 @@
             "campaignNodeId": "NODE_EVENT_ERA_RAIDERS_OF_THE_OUTER_RIM",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ERA_ANALYSIS_PARALYSIS",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M05",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi01"
           }
         }
       ],
@@ -39753,16 +40696,6 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M03",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi03"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "SCHEDULED",
             "campaignNodeId": "NODE_EVENT_ERA_BATTLE_KNIGHTFALL",
@@ -39788,6 +40721,26 @@
             "campaignNodeId": "NODE_EVENT_ERA_RAIDERS_OF_THE_OUTER_RIM",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ERA_ANALYSIS_PARALYSIS",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M03",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi03"
           }
         }
       ],
@@ -39869,16 +40822,6 @@
         {
           "requirementId": [],
           "missionIdentifier": {
-            "campaignId": "C01SP",
-            "campaignMapId": "M03",
-            "campaignNodeId": "SHP01",
-            "campaignNodeDifficulty": 4,
-            "campaignMissionId": "Mi05"
-          }
-        },
-        {
-          "requirementId": [],
-          "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "SCHEDULED",
             "campaignNodeId": "NODE_EVENT_ERA_BATTLE_KNIGHTFALL",
@@ -39904,6 +40847,26 @@
             "campaignNodeId": "NODE_EVENT_ERA_RAIDERS_OF_THE_OUTER_RIM",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ERA_ANALYSIS_PARALYSIS",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "C01SP",
+            "campaignMapId": "M03",
+            "campaignNodeId": "SHP01",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "Mi05"
           }
         }
       ],
@@ -40472,6 +41435,26 @@
           "requirementId": [],
           "missionIdentifier": {
             "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ERA_ANALYSIS_PARALYSIS",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "COVEN_OF_SHADOWS",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
             "campaignMapId": "MARQUEE",
             "campaignNodeId": "CROSSHAIRS3_L80",
             "campaignNodeDifficulty": 4,
@@ -40483,7 +41466,7 @@
           "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "MARQUEE",
-            "campaignNodeId": "PUNISHINGONE_L80",
+            "campaignNodeId": "INQUISITORBARRISS_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
           }
@@ -40493,7 +41476,47 @@
           "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "MARQUEE",
-            "campaignNodeId": "ROGUEONESHIP_L80",
+            "campaignNodeId": "VADERDUELSEND_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "ASAJJDARKDISCIPLE_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "STORMTROOPERLUKE_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "YODACHEWBACCA_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "PUNISHINGONE_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
           }
@@ -40673,6 +41696,26 @@
           "requirementId": [],
           "missionIdentifier": {
             "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "NODE_EVENT_ERA_ANALYSIS_PARALYSIS",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "SCHEDULED",
+            "campaignNodeId": "COVEN_OF_SHADOWS",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER02"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
             "campaignMapId": "MARQUEE",
             "campaignNodeId": "CROSSHAIRS3_L80",
             "campaignNodeDifficulty": 4,
@@ -40684,7 +41727,7 @@
           "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "MARQUEE",
-            "campaignNodeId": "PUNISHINGONE_L80",
+            "campaignNodeId": "INQUISITORBARRISS_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
           }
@@ -40694,7 +41737,47 @@
           "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "MARQUEE",
-            "campaignNodeId": "ROGUEONESHIP_L80",
+            "campaignNodeId": "VADERDUELSEND_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "ASAJJDARKDISCIPLE_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "STORMTROOPERLUKE_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "YODACHEWBACCA_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER03"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "PUNISHINGONE_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER03"
           }
@@ -40895,7 +41978,7 @@
           "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "MARQUEE",
-            "campaignNodeId": "PUNISHINGONE_L80",
+            "campaignNodeId": "INQUISITORBARRISS_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER04"
           }
@@ -40905,7 +41988,47 @@
           "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "MARQUEE",
-            "campaignNodeId": "ROGUEONESHIP_L80",
+            "campaignNodeId": "VADERDUELSEND_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "ASAJJDARKDISCIPLE_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "STORMTROOPERLUKE_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "YODACHEWBACCA_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "PUNISHINGONE_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER04"
           }
@@ -41031,7 +42154,7 @@
           "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "MARQUEE",
-            "campaignNodeId": "PUNISHINGONE_L80",
+            "campaignNodeId": "INQUISITORBARRISS_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER04"
           }
@@ -41041,7 +42164,47 @@
           "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "MARQUEE",
-            "campaignNodeId": "ROGUEONESHIP_L80",
+            "campaignNodeId": "VADERDUELSEND_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "ASAJJDARKDISCIPLE_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "STORMTROOPERLUKE_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "YODACHEWBACCA_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "PUNISHINGONE_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER04"
           }
@@ -41167,7 +42330,7 @@
           "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "MARQUEE",
-            "campaignNodeId": "PUNISHINGONE_L80",
+            "campaignNodeId": "INQUISITORBARRISS_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER04"
           }
@@ -41177,7 +42340,47 @@
           "missionIdentifier": {
             "campaignId": "EVENTS",
             "campaignMapId": "MARQUEE",
-            "campaignNodeId": "ROGUEONESHIP_L80",
+            "campaignNodeId": "VADERDUELSEND_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "ASAJJDARKDISCIPLE_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "STORMTROOPERLUKE_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "YODACHEWBACCA_L80",
+            "campaignNodeDifficulty": 4,
+            "campaignMissionId": "TIER04"
+          }
+        },
+        {
+          "requirementId": [],
+          "missionIdentifier": {
+            "campaignId": "EVENTS",
+            "campaignMapId": "MARQUEE",
+            "campaignNodeId": "PUNISHINGONE_L80",
             "campaignNodeDifficulty": 4,
             "campaignMissionId": "TIER04"
           }
@@ -49573,6 +50776,639 @@
       "obtainableTime": "0",
       "type": 1,
       "requiredRarity": 7,
+      "findFlowDisabled": false
+    },
+    {
+      "lookupMission": [],
+      "raidLookup": [],
+      "actionLinkLookup": [],
+      "raidImmediateLookup": [],
+      "id": "G12Finisher_4LOM_C",
+      "nameKey": "EQUIPMENT_G12Finisher_4LOM_NAME",
+      "iconKey": "tex.equip_powercellinjector",
+      "requiredLevel": 85,
+      "equipmentStat": {
+        "stat": [
+          {
+            "unitStatId": 5,
+            "statValueDecimal": "80000",
+            "unscaledDecimalValue": "800000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 1,
+            "statValueDecimal": "30000000",
+            "unscaledDecimalValue": "300000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 4,
+            "statValueDecimal": "1000000",
+            "unscaledDecimalValue": "10000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 7,
+            "statValueDecimal": "5000000",
+            "unscaledDecimalValue": "50000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 15,
+            "statValueDecimal": "1000000",
+            "unscaledDecimalValue": "10000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 8,
+            "statValueDecimal": "300000",
+            "unscaledDecimalValue": "3000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 17,
+            "statValueDecimal": "5000",
+            "unscaledDecimalValue": "50000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 18,
+            "statValueDecimal": "5000",
+            "unscaledDecimalValue": "50000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          }
+        ]
+      },
+      "recipeId": "recipeG12Finisher_4LOM_C",
+      "tier": 12,
+      "sellValue": {
+        "currency": 1,
+        "quantity": "1000",
+        "bonusQuantity": 0
+      },
+      "mark": " ",
+      "obtainableTime": "0",
+      "type": 1,
+      "requiredRarity": 4,
+      "findFlowDisabled": false
+    },
+    {
+      "lookupMission": [],
+      "raidLookup": [],
+      "actionLinkLookup": [],
+      "raidImmediateLookup": [],
+      "id": "G12Finisher_STRANGER_C",
+      "nameKey": "EQUIPMENT_G12Finisher_STRANGER_NAME",
+      "iconKey": "tex.equip_powercellinjector",
+      "requiredLevel": 85,
+      "equipmentStat": {
+        "stat": [
+          {
+            "unitStatId": 5,
+            "statValueDecimal": "80000",
+            "unscaledDecimalValue": "800000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 3,
+            "statValueDecimal": "3000000",
+            "unscaledDecimalValue": "30000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 1,
+            "statValueDecimal": "35000000",
+            "unscaledDecimalValue": "350000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 17,
+            "statValueDecimal": "2500",
+            "unscaledDecimalValue": "25000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 27,
+            "statValueDecimal": "2500",
+            "unscaledDecimalValue": "25000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 8,
+            "statValueDecimal": "450000",
+            "unscaledDecimalValue": "4500000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 9,
+            "statValueDecimal": "450000",
+            "unscaledDecimalValue": "4500000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          }
+        ]
+      },
+      "recipeId": "recipeG12Finisher_STRANGER_C",
+      "tier": 12,
+      "sellValue": {
+        "currency": 1,
+        "quantity": "1000",
+        "bonusQuantity": 0
+      },
+      "mark": " ",
+      "obtainableTime": "0",
+      "type": 1,
+      "requiredRarity": 7,
+      "findFlowDisabled": false
+    },
+    {
+      "lookupMission": [],
+      "raidLookup": [],
+      "actionLinkLookup": [],
+      "raidImmediateLookup": [],
+      "id": "G12Finisher_ZUCKUSS_A",
+      "nameKey": "EQUIPMENT_G12Finisher_ZUCKUSS_NAME",
+      "iconKey": "tex.equip_powercellinjector",
+      "requiredLevel": 85,
+      "equipmentStat": {
+        "stat": [
+          {
+            "unitStatId": 2,
+            "statValueDecimal": "850000",
+            "unscaledDecimalValue": "8500000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 1,
+            "statValueDecimal": "15000000",
+            "unscaledDecimalValue": "150000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 5,
+            "statValueDecimal": "80000",
+            "unscaledDecimalValue": "800000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 6,
+            "statValueDecimal": "4500000",
+            "unscaledDecimalValue": "45000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 27,
+            "statValueDecimal": "1000",
+            "unscaledDecimalValue": "10000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 9,
+            "statValueDecimal": "1000000",
+            "unscaledDecimalValue": "10000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 17,
+            "statValueDecimal": "1500",
+            "unscaledDecimalValue": "15000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          }
+        ]
+      },
+      "recipeId": "G12Finisher_ZUCKUSS_A",
+      "tier": 12,
+      "sellValue": {
+        "currency": 1,
+        "quantity": "1000",
+        "bonusQuantity": 0
+      },
+      "mark": " ",
+      "obtainableTime": "0",
+      "type": 1,
+      "requiredRarity": 4,
+      "findFlowDisabled": false
+    },
+    {
+      "lookupMission": [],
+      "raidLookup": [],
+      "actionLinkLookup": [],
+      "raidImmediateLookup": [],
+      "id": "G12Finisher_STORMTROOPERLUKE_B",
+      "nameKey": "EQUIPMENT_G12Finisher_STORMTROOPERLUKE_NAME",
+      "iconKey": "tex.equip_powercellinjector",
+      "requiredLevel": 85,
+      "equipmentStat": {
+        "stat": [
+          {
+            "unitStatId": 5,
+            "statValueDecimal": "80000",
+            "unscaledDecimalValue": "800000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 1,
+            "statValueDecimal": "32000000",
+            "unscaledDecimalValue": "320000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 4,
+            "statValueDecimal": "1100000",
+            "unscaledDecimalValue": "11000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 7,
+            "statValueDecimal": "6000000",
+            "unscaledDecimalValue": "60000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 8,
+            "statValueDecimal": "2800000",
+            "unscaledDecimalValue": "28000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 9,
+            "statValueDecimal": "2800000",
+            "unscaledDecimalValue": "28000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 18,
+            "statValueDecimal": "6000",
+            "unscaledDecimalValue": "60000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          }
+        ]
+      },
+      "recipeId": "G12Finisher_STORMTROOPERLUKE_B",
+      "tier": 12,
+      "sellValue": {
+        "currency": 1,
+        "quantity": "1000",
+        "bonusQuantity": 0
+      },
+      "mark": " ",
+      "obtainableTime": "0",
+      "type": 1,
+      "requiredRarity": 4,
+      "findFlowDisabled": false
+    },
+    {
+      "lookupMission": [],
+      "raidLookup": [],
+      "actionLinkLookup": [],
+      "raidImmediateLookup": [],
+      "id": "G12Finisher_IG90_B",
+      "nameKey": "EQUIPMENT_G12Finisher_IG90_NAME",
+      "iconKey": "tex.equip_powercellinjector",
+      "requiredLevel": 85,
+      "equipmentStat": {
+        "stat": [
+          {
+            "unitStatId": 5,
+            "statValueDecimal": "80000",
+            "unscaledDecimalValue": "800000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 17,
+            "statValueDecimal": "2000",
+            "unscaledDecimalValue": "20000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 1,
+            "statValueDecimal": "20000000",
+            "unscaledDecimalValue": "200000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 18,
+            "statValueDecimal": "1000",
+            "unscaledDecimalValue": "10000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 9,
+            "statValueDecimal": "750000",
+            "unscaledDecimalValue": "7500000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 8,
+            "statValueDecimal": "750000",
+            "unscaledDecimalValue": "7500000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          }
+        ]
+      },
+      "recipeId": "recipeG12Finisher_IG90_B",
+      "tier": 12,
+      "sellValue": {
+        "currency": 1,
+        "quantity": "1000",
+        "bonusQuantity": 0
+      },
+      "mark": " ",
+      "obtainableTime": "0",
+      "type": 1,
+      "requiredRarity": 4,
+      "findFlowDisabled": false
+    },
+    {
+      "lookupMission": [],
+      "raidLookup": [],
+      "actionLinkLookup": [],
+      "raidImmediateLookup": [],
+      "id": "G12Finisher_YODACHEWBACCA_B",
+      "nameKey": "EQUIPMENT_G12Finisher_YODACHEWBACCA_NAME",
+      "iconKey": "tex.equip_powercellinjector",
+      "requiredLevel": 85,
+      "equipmentStat": {
+        "stat": [
+          {
+            "unitStatId": 4,
+            "statValueDecimal": "1800000",
+            "unscaledDecimalValue": "18000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 1,
+            "statValueDecimal": "15000000",
+            "unscaledDecimalValue": "150000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 8,
+            "statValueDecimal": "4000000",
+            "unscaledDecimalValue": "40000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 9,
+            "statValueDecimal": "4000000",
+            "unscaledDecimalValue": "40000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 18,
+            "statValueDecimal": "2000",
+            "unscaledDecimalValue": "20000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 27,
+            "statValueDecimal": "2000",
+            "unscaledDecimalValue": "20000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 5,
+            "statValueDecimal": "80000",
+            "unscaledDecimalValue": "800000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          }
+        ]
+      },
+      "recipeId": "G12Finisher_YODACHEWBACCA_B",
+      "tier": 12,
+      "sellValue": {
+        "currency": 1,
+        "quantity": "1000",
+        "bonusQuantity": 0
+      },
+      "mark": " ",
+      "obtainableTime": "0",
+      "type": 1,
+      "requiredRarity": 4,
+      "findFlowDisabled": false
+    },
+    {
+      "lookupMission": [],
+      "raidLookup": [],
+      "actionLinkLookup": [],
+      "raidImmediateLookup": [],
+      "id": "G12Finisher_INQUISITORBARRISS_C",
+      "nameKey": "EQUIPMENT_G12Finisher_INQUISITORBARRISS_NAME",
+      "iconKey": "tex.equip_powercellinjector",
+      "requiredLevel": 85,
+      "equipmentStat": {
+        "stat": [
+          {
+            "unitStatId": 4,
+            "statValueDecimal": "1500000",
+            "unscaledDecimalValue": "15000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 5,
+            "statValueDecimal": "80000",
+            "unscaledDecimalValue": "800000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 1,
+            "statValueDecimal": "40000000",
+            "unscaledDecimalValue": "400000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 18,
+            "statValueDecimal": "3000",
+            "unscaledDecimalValue": "30000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 8,
+            "statValueDecimal": "450000",
+            "unscaledDecimalValue": "4500000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          }
+        ]
+      },
+      "recipeId": "G12Finisher_INQUISITORBARRISS_C",
+      "tier": 12,
+      "sellValue": {
+        "currency": 1,
+        "quantity": "1000",
+        "bonusQuantity": 0
+      },
+      "mark": " ",
+      "obtainableTime": "0",
+      "type": 1,
+      "requiredRarity": 4,
+      "findFlowDisabled": false
+    },
+    {
+      "lookupMission": [],
+      "raidLookup": [],
+      "actionLinkLookup": [],
+      "raidImmediateLookup": [],
+      "id": "G12Finisher_ASAJJDARKDISCIPLE_A",
+      "nameKey": "EQUIPMENT_G12Finisher_ASAJJDARKDISCIPLE_NAME",
+      "iconKey": "tex.equip_powercellinjector",
+      "requiredLevel": 85,
+      "equipmentStat": {
+        "stat": [
+          {
+            "unitStatId": 3,
+            "statValueDecimal": "3750000",
+            "unscaledDecimalValue": "37500000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 5,
+            "statValueDecimal": "80000",
+            "unscaledDecimalValue": "800000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 6,
+            "statValueDecimal": "750000",
+            "unscaledDecimalValue": "7500000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 1,
+            "statValueDecimal": "25000000",
+            "unscaledDecimalValue": "250000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 10,
+            "statValueDecimal": "300000",
+            "unscaledDecimalValue": "3000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 14,
+            "statValueDecimal": "500000",
+            "unscaledDecimalValue": "5000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          }
+        ]
+      },
+      "recipeId": "recipeG12Finisher_ASAJJDARKDISCIPLE_A",
+      "tier": 12,
+      "sellValue": {
+        "currency": 1,
+        "quantity": "1000",
+        "bonusQuantity": 0
+      },
+      "mark": " ",
+      "obtainableTime": "0",
+      "type": 1,
+      "requiredRarity": 4,
+      "findFlowDisabled": false
+    },
+    {
+      "lookupMission": [],
+      "raidLookup": [],
+      "actionLinkLookup": [],
+      "raidImmediateLookup": [],
+      "id": "G12Finisher_VADERDUELSEND_A",
+      "nameKey": "EQUIPMENT_G12Finisher_VADERDUELSEND_NAME",
+      "iconKey": "tex.equip_powercellinjector",
+      "requiredLevel": 85,
+      "equipmentStat": {
+        "stat": [
+          {
+            "unitStatId": 5,
+            "statValueDecimal": "80000",
+            "unscaledDecimalValue": "800000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 1,
+            "statValueDecimal": "25000000",
+            "unscaledDecimalValue": "250000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 2,
+            "statValueDecimal": "3600000",
+            "unscaledDecimalValue": "36000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          },
+          {
+            "unitStatId": 6,
+            "statValueDecimal": "3500000",
+            "unscaledDecimalValue": "35000000000",
+            "uiDisplayOverrideValue": "-1",
+            "scalar": "0"
+          }
+        ]
+      },
+      "recipeId": "recipeG12Finisher_VADERDUELSEND_A",
+      "tier": 12,
+      "sellValue": {
+        "currency": 1,
+        "quantity": "1000",
+        "bonusQuantity": 0
+      },
+      "mark": " ",
+      "obtainableTime": "0",
+      "type": 1,
+      "requiredRarity": 4,
       "findFlowDisabled": false
     }
   ]

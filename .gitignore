@@ -152,7 +152,6 @@ backend/prisma/migrations/**/migration.sql
 *.db
 
 # Database dumps
-*.sql
 *.dump
 
 # ===================================
@@ -427,13 +426,28 @@ webpack-bundle-analyzer-report.html
 
 # SWGoH Asset Management
 tools/swgoh-ae2/
-assets/units/
-assets/planets/
+assets/
 data/gamedata/units.json
 data/gamedata/units_pve.json
 data/gamedata/Loc_ENG_US.txt.json
-*.png
-*.jpg
-*.jpeg
-*.webp
 tools/asset-processor/node_modules/
+data/gamedata/units_pve.json
+data/gamedata/Loc_ENG_US.txt.json
+tools/asset-processor/node_modules/
+
+# Add to .gitignore - but KEEP units-manifest.json
+data/sync-state.json
+data/gamedata/
+data/gamedata.backup*/
+data/cache/
+
+# Local database - keep this excluded
+data/local.db
+
+# Wrangler local dev
+.wrangler/
+
+# Note: public/* assets and migrations/*.sql ARE committed
+# Only exclude temporary/generated SQL dumps
+*.dump.sql
+.vercel

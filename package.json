@@ -1,23 +1,46 @@
 {
-  "name": "swgoh-rote-tb-recommended-squads",
-  "version": "1.0.0",
-  "description": "Star Wars Galaxy of Heroes Rise of the Empire Territory Battle Recommended Squads Tracker",
+  "name": "swgoh-rote-tb-recommender",
+  "version": "2.0.0",
+  "description": "Star Wars Galaxy of Heroes Rise of the Empire Territory Battle Squad Recommender",
+  "private": true,
   "scripts": {
-    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
-    "dev:backend": "cd backend && npm run dev",
-    "dev:frontend": "cd frontend && npm run dev",
-    "build": "npm run build:backend && npm run build:frontend",
-    "build:backend": "cd backend && npm run build",
-    "build:frontend": "cd frontend && npm run build",
-    "test": "npm run test:backend && npm run test:frontend",
-    "test:backend": "cd backend && npm run test",
-    "test:frontend": "cd frontend && npm run test",
-    "docker:dev": "docker-compose -f docker-compose.dev.yml up",
-    "docker:prod": "docker-compose -f docker-compose.prod.yml up -d",
-    "setup": "npm install && cd backend && npm install && cd ../frontend && npm install"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "sync-assets": "node tools/comlink-asset-sync.js",
+    "sync-assets:force": "node tools/comlink-asset-sync.js --force",
+    "prebuild": "npm run sync-assets || echo 'Asset sync skipped - using cached manifest'",
+    "db:setup": "npx tsx scripts/setup-db.ts",
+    "db:generate": "npx drizzle-kit generate",
+    "db:push": "npx drizzle-kit push",
+    "db:studio": "npx drizzle-kit studio"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.15.15",
+    "@swgoh-utils/comlink": "^2.0.0",
+    "@tiptap/extension-link": "^2.10.0",
+    "@tiptap/react": "^2.10.0",
+    "@tiptap/starter-kit": "^2.10.0",
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.10.0",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.38.4",
+    "nanoid": "^5.1.6",
+    "next": "^14.2.0",
+    "next-auth": "^4.24.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
   },
   "devDependencies": {
-    "concurrently": "^8.2.2"
-  },
-  "workspaces": ["backend", "frontend"]
+    "@types/bcryptjs": "^2.4.6",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "drizzle-kit": "^0.30.6",
+    "tsx": "^4.19.0",
+    "typescript": "^5.0.0"
+  }
 }

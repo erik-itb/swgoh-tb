@@ -1,0 +1,69 @@
+// Prisma Schema for SWGoH RotE TB Recommender
+// Using Cloudflare D1 database
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["driverAdapters"]
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  username  String   @unique
+  password  String   // bcrypt hashed
+  name      String?
+  role      String   @default("admin") // "super_admin" or "admin"
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Instruction {
+  id            String   @id @default(cuid())
+  title         String
+  phase         Int      // 1-6
+  planet        String   // e.g., "mustafar", "coruscant"
+  missionNumber Int
+  missionType   String   @default("combat") // "combat" or "special" or "fleet"
+  isAutoPlay    Boolean  @default(false)
+  content       String   // WYSIWYG HTML content
+  
+  // Squad composition (for ground missions)
+  squadLeaderId String?
+  squadMember1Id String?
+  squadMember2Id String?
+  squadMember3Id String?
+  squadMember4Id String?
+  
+  // Fleet composition (for fleet missions)
+  capitalShipId   String?
+  starting1Id     String?
+  starting2Id     String?
+  starting3Id     String?
+  reinforcement1Id String?
+  reinforcement2Id String?
+  reinforcement3Id String?
+  reinforcement4Id String?
+  
+  videos    Video[]
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  @@index([phase, planet])
+  @@index([planet, missionNumber])
+}
+
+model Video {
+  id            String      @id @default(cuid())
+  url           String
+  title         String?
+  instruction   Instruction @relation(fields: [instructionId], references: [id], onDelete: Cascade)
+  instructionId String
+  order         Int         @default(0)
+  
+  @@index([instructionId])
+}
