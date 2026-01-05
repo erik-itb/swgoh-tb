@@ -459,7 +459,7 @@ function InstructionCard({
         <SquadDisplay instruction={instruction} unitNames={unitNames} />
       )}
       {missionType === "fleet" && instruction.capitalShipId && (
-        <FleetDisplay instruction={instruction} />
+        <FleetDisplay instruction={instruction} unitNames={unitNames} />
       )}
       
       {/* Instructions Content */}
@@ -567,7 +567,7 @@ function SquadDisplay({ instruction, unitNames }: { instruction: Instruction; un
   );
 }
 
-function FleetDisplay({ instruction }: { instruction: Instruction }) {
+function FleetDisplay({ instruction, unitNames }: { instruction: Instruction; unitNames: Record<string, string> }) {
   const capital = instruction.capitalShipId;
   const starting = [
     instruction.starting1Id,
@@ -581,33 +581,79 @@ function FleetDisplay({ instruction }: { instruction: Instruction }) {
     instruction.reinforcement4Id,
   ].filter(Boolean);
 
+  // Get proper ship name from lookup, fallback to ID
+  const getShipName = (id: string | undefined): string => {
+    if (!id) return "";
+    return unitNames[id] || id;
+  };
+
   return (
     <div>
       {/* Capital Ship */}
       <div className="portrait-row">
-        <div className="portrait ship capital" title={capital}>
-          <img 
-            src={`/ships/${capital}.png`} 
-            alt={capital || "Capital Ship"}
-            onError={(e) => {
-              (e.target as HTMLImageElement).src = "/fallback/ship-portrait.svg";
-            }}
-          />
-          <span className="portrait-label">Capital</span>
-        </div>
-      </div>
-      
-      {/* Starting Ships */}
-      <div className="portrait-row">
-        {starting.map((shipId, idx) => (
-          <div key={idx} className="portrait ship" title={shipId}>
+        <div 
+          className="portrait-with-label"
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            gap: "0.5rem"
+          }}
+        >
+          <div className="portrait ship capital" title={getShipName(capital)}>
             <img 
-              src={`/ships/${shipId}.png`} 
-              alt={shipId || "Ship"}
+              src={`/ships/${capital}.png`} 
+              alt={getShipName(capital)}
               onError={(e) => {
                 (e.target as HTMLImageElement).src = "/fallback/ship-portrait.svg";
               }}
             />
+          </div>
+          <span style={{
+            fontSize: "0.7rem",
+            color: "var(--color-accent-gold)",
+            textAlign: "center",
+            maxWidth: "70px",
+            lineHeight: "1.2",
+            wordBreak: "break-word"
+          }}>
+            {getShipName(capital)}
+          </span>
+        </div>
+      </div>
+      
+      {/* Starting Ships */}
+      <div className="portrait-row" style={{ flexWrap: "wrap", gap: "1rem" }}>
+        {starting.map((shipId, idx) => (
+          <div 
+            key={idx} 
+            className="portrait-with-label"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "0.5rem"
+            }}
+          >
+            <div className="portrait ship" title={getShipName(shipId)}>
+              <img 
+                src={`/ships/${shipId}.png`} 
+                alt={getShipName(shipId)}
+                onError={(e) => {
+                  (e.target as HTMLImageElement).src = "/fallback/ship-portrait.svg";
+                }}
+              />
+            </div>
+            <span style={{
+              fontSize: "0.7rem",
+              color: "var(--color-text-muted)",
+              textAlign: "center",
+              maxWidth: "70px",
+              lineHeight: "1.2",
+              wordBreak: "break-word"
+            }}>
+              {getShipName(shipId)}
+            </span>
           </div>
         ))}
       </div>
@@ -616,16 +662,37 @@ function FleetDisplay({ instruction }: { instruction: Instruction }) {
       {reinforcements.length > 0 && (
         <>
           <div className="text-center text-muted text-sm mb-sm">Reinforcements</div>
-          <div className="portrait-row">
+          <div className="portrait-row" style={{ flexWrap: "wrap", gap: "1rem" }}>
             {reinforcements.map((shipId, idx) => (
-              <div key={idx} className="portrait ship reinforcement" title={shipId}>
-                <img 
-                  src={`/ships/${shipId}.png`} 
-                  alt={shipId || "Ship"}
-                  onError={(e) => {
-                    (e.target as HTMLImageElement).src = "/fallback/ship-portrait.svg";
-                  }}
-                />
+              <div 
+                key={idx} 
+                className="portrait-with-label"
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  gap: "0.5rem"
+                }}
+              >
+                <div className="portrait ship reinforcement" title={getShipName(shipId)}>
+                  <img 
+                    src={`/ships/${shipId}.png`} 
+                    alt={getShipName(shipId)}
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).src = "/fallback/ship-portrait.svg";
+                    }}
+                  />
+                </div>
+                <span style={{
+                  fontSize: "0.7rem",
+                  color: "var(--color-text-muted)",
+                  textAlign: "center",
+                  maxWidth: "70px",
+                  lineHeight: "1.2",
+                  wordBreak: "break-word"
+                }}>
+                  {getShipName(shipId)}
+                </span>
               </div>
             ))}
           </div>
