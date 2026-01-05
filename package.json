@@ -11,7 +11,7 @@
     "type-check": "tsc --noEmit",
     "sync-assets": "node tools/comlink-asset-sync.js",
     "sync-assets:force": "node tools/comlink-asset-sync.js --force",
-    "prebuild": "npm run sync-assets || echo 'Asset sync skipped - using cached manifest'",
+    "prebuild": "if [ -z \"$CI\" ] && [ -z \"$VERCEL\" ]; then npm run sync-assets || echo 'Asset sync skipped'; fi",
     "db:setup": "npx tsx scripts/setup-db.ts",
     "db:generate": "npx drizzle-kit generate",
     "db:push": "npx drizzle-kit push",
