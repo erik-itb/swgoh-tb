@@ -2,9 +2,11 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { useSession } from "next-auth/react";
 import { PHASES, PLANETS, getPlanetsByPhase, Planet } from "@/lib/roteData";
 
 export default function HomePage() {
+  const { data: session } = useSession();
   const [selectedPhase, setSelectedPhase] = useState<number>(1);
   const planets = getPlanetsByPhase(selectedPhase);
 
@@ -18,7 +20,7 @@ export default function HomePage() {
         </Link>
         <ul className="navbar-nav">
           <li><Link href="/" className="navbar-link active">Squads</Link></li>
-          <li><Link href="/login" className="navbar-link">Admin</Link></li>
+          <li><Link href={session ? "/admin" : "/login"} className="navbar-link">Admin</Link></li>
         </ul>
       </nav>
 

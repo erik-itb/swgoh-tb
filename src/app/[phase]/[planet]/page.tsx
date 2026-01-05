@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
+import { useSession } from "next-auth/react";
 import DOMPurify from "dompurify";
 import { PLANETS, PHASES, getPhaseForPlanet } from "@/lib/roteData";
 
@@ -54,6 +55,7 @@ interface Instruction {
 }
 
 export default function PlanetPage() {
+  const { data: session } = useSession();
   const params = useParams();
   const phaseNum = parseInt(params.phase as string);
   const planetId = params.planet as string;
@@ -150,7 +152,7 @@ export default function PlanetPage() {
         </Link>
         <ul className="navbar-nav">
           <li><Link href="/" className="navbar-link">Squads</Link></li>
-          <li><Link href="/login" className="navbar-link">Admin</Link></li>
+          <li><Link href={session ? "/admin" : "/login"} className="navbar-link">Admin</Link></li>
         </ul>
       </nav>
 
