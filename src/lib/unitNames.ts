@@ -10,15 +10,17 @@ let unitsManifest: UnitsManifest | null = null;
 
 interface UnitInfo {
   name: string;
-  type: 'CHARACTER' | 'SHIP';
+  type: string; // 'CHARACTER' | 'SHIP' but JSON imports as string
   alignment: string;
   thumbnailName?: string;
+  rarity?: string;
   categories?: string[];
 }
 
 interface UnitsManifest {
   version: string;
   generated: string;
+  description?: string;
   units: Record<string, UnitInfo>;
 }
 
