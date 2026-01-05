@@ -4,7 +4,7 @@ import db from "@/lib/db";
 import { instructions, videos } from "@/lib/db/schema";
 import { eq, asc } from "drizzle-orm";
 import { nanoid } from "nanoid";
-import { authOptions } from "@/app/api/auth/[...nextauth]/route";
+import { authOptions } from "@/lib/auth";
 
 interface RouteParams {
   params: Promise<{ id: string }>;

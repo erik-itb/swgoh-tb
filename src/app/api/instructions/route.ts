@@ -4,7 +4,7 @@ import db from "@/lib/db";
 import { instructions, videos } from "@/lib/db/schema";
 import { eq, and, asc } from "drizzle-orm";
 import { nanoid } from "nanoid";
-import { authOptions } from "@/app/api/auth/[...nextauth]/route";
+import { authOptions } from "@/lib/auth";
 
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams;

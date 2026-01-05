@@ -4,7 +4,7 @@ import bcrypt from "bcryptjs";
 import db from "@/lib/db";
 import { users } from "@/lib/db/schema";
 import { eq } from "drizzle-orm";
-import { authOptions } from "@/app/api/auth/[...nextauth]/route";
+import { authOptions } from "@/lib/auth";
 
 // PUT /api/users/me/password - Change own password (any authenticated user)
 export async function PUT(request: NextRequest) {
