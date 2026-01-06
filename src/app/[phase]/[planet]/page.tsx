@@ -623,7 +623,7 @@ function FleetDisplay({ instruction, unitNames }: { instruction: Instruction; un
       </div>
       
       {/* Starting Ships */}
-      <div className="portrait-row" style={{ flexWrap: "wrap", gap: "1rem" }}>
+      <div className="portrait-row" style={{ flexWrap: "wrap", gap: "1rem", alignItems: "flex-start" }}>
         {starting.map((shipId, idx) => (
           <div 
             key={idx} 
@@ -662,7 +662,7 @@ function FleetDisplay({ instruction, unitNames }: { instruction: Instruction; un
       {reinforcements.length > 0 && (
         <>
           <div className="text-center text-muted text-sm mb-sm">Reinforcements</div>
-          <div className="portrait-row" style={{ flexWrap: "wrap", gap: "1rem" }}>
+          <div className="portrait-row" style={{ flexWrap: "wrap", gap: "1rem", alignItems: "flex-start" }}>
             {reinforcements.map((shipId, idx) => (
               <div 
                 key={idx} 
