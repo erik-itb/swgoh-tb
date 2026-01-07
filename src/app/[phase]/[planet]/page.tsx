@@ -151,7 +151,6 @@ export default function PlanetPage() {
           <span>RotE TB Recommender</span>
         </Link>
         <ul className="navbar-nav">
-          <li><Link href="/" className="navbar-link">Squads</Link></li>
           <li><Link href={session ? "/admin" : "/login"} className="navbar-link">Admin</Link></li>
         </ul>
       </nav>

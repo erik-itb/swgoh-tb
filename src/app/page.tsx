@@ -19,7 +19,6 @@ export default function HomePage() {
           <span>RotE TB Recommender</span>
         </Link>
         <ul className="navbar-nav">
-          <li><Link href="/" className="navbar-link active">Squads</Link></li>
           <li><Link href={session ? "/admin" : "/login"} className="navbar-link">Admin</Link></li>
         </ul>
       </nav>
