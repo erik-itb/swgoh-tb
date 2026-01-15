@@ -1,11 +1,12 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { useSession } from "next-auth/react";
 import DOMPurify from "dompurify";
 import { PLANETS, PHASES, getPhaseForPlanet } from "@/lib/roteData";
+import { useInstructionModal } from "@/components/InstructionModalContext";
 
 // Mapping from planet IDs to image filenames
 const PLANET_IMAGES: Record<string, string> = {
@@ -248,6 +249,9 @@ export default function PlanetPage() {
                     unitNames={unitNames}
                     isOpen={isOpen}
                     onToggle={() => handleAccordionClick(missionKey)}
+                    phaseNum={phaseNum}
+                    planetId={planetId}
+                    session={session}
                   />
                 </div>
               );
@@ -273,7 +277,10 @@ function MissionAccordion({
   instructions, 
   unitNames,
   isOpen, 
-  onToggle 
+  onToggle,
+  phaseNum,
+  planetId,
+  session
 }: { 
   missionNumber: number;
   missionType: string;
@@ -283,7 +290,12 @@ function MissionAccordion({
   unitNames: Record<string, string>;
   isOpen: boolean;
   onToggle: () => void;
+  phaseNum: number;
+  planetId: string;
+  session: { user?: { role?: string } } | null;
 }) {
+  const isAdmin = session?.user?.role === "admin" || session?.user?.role === "super_admin";
+  const { openModal } = useInstructionModal();
   const typeLabels: Record<string, string> = {
     combat: "Combat Mission",
     special: "Special Mission",
@@ -415,6 +427,30 @@ function MissionAccordion({
           <div className="text-center text-secondary" style={{ padding: "2rem" }}>
             <p>No squad recommendations have been added for this mission yet.</p>
             <p className="text-muted">Check back later or contact your guild officers.</p>
+          </div>
+        )}
+
+        {/* Admin-only Add Instructions button */}
+        {isAdmin && (
+          <div style={{ 
+            marginTop: "1.5rem", 
+            paddingTop: "1rem", 
+            borderTop: "1px solid var(--color-border)",
+            textAlign: "center" 
+          }}>
+            <button
+              type="button"
+              onClick={() => openModal({
+                phase: phaseNum,
+                planet: planetId,
+                missionType: missionType as "combat" | "special" | "fleet",
+                missionNumber: missionNumber
+              })}
+              className="btn btn-secondary"
+              style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem" }}
+            >
+              ➕ Add Instructions
+            </button>
           </div>
         )}
       </div>

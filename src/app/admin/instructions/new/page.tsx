@@ -1,7 +1,7 @@
 "use client";
 
 import { useSession } from "next-auth/react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { PHASES, PLANETS } from "@/lib/roteData";
@@ -16,8 +16,12 @@ interface Unit {
 export default function NewInstructionPage() {
   const { status } = useSession();
   const router = useRouter();
+  const searchParams = useSearchParams();
   
-  // Form state
+  // Track if form was pre-populated from URL params
+  const [prePopulated, setPrePopulated] = useState(false);
+  
+  // Form state - initialized with defaults, will be updated from URL params
   const [title, setTitle] = useState("");
   const [phase, setPhase] = useState(1);
   const [planet, setPlanet] = useState("");
@@ -48,6 +52,48 @@ export default function NewInstructionPage() {
   const [units, setUnits] = useState<{ characters: Unit[]; ships: Unit[] }>({ characters: [], ships: [] });
   const [loading, setLoading] = useState(false);
   const [saving, setSaving] = useState(false);
+
+  // Pre-populate form from URL params on mount
+  useEffect(() => {
+    const urlPhase = searchParams.get("phase");
+    const urlPlanet = searchParams.get("planet");
+    const urlMissionType = searchParams.get("missionType");
+    const urlMissionNumber = searchParams.get("missionNumber");
+    
+    let hasPrePopulated = false;
+    
+    // Validate and set phase (1-6)
+    if (urlPhase) {
+      const phaseNum = parseInt(urlPhase);
+      if (phaseNum >= 1 && phaseNum <= 6) {
+        setPhase(phaseNum);
+        hasPrePopulated = true;
+      }
+    }
+    
+    // Validate and set planet
+    if (urlPlanet && PLANETS[urlPlanet]) {
+      setPlanet(urlPlanet);
+      hasPrePopulated = true;
+    }
+    
+    // Validate and set mission type
+    if (urlMissionType && ["combat", "special", "fleet"].includes(urlMissionType)) {
+      setMissionType(urlMissionType as "combat" | "special" | "fleet");
+      hasPrePopulated = true;
+    }
+    
+    // Validate and set mission number
+    if (urlMissionNumber) {
+      const missionNum = parseInt(urlMissionNumber);
+      if (missionNum >= 1 && missionNum <= 10) {
+        setMissionNumber(missionNum);
+        hasPrePopulated = true;
+      }
+    }
+    
+    setPrePopulated(hasPrePopulated);
+  }, [searchParams]);
 
   useEffect(() => {
     if (status === "unauthenticated") {
@@ -220,6 +266,11 @@ export default function NewInstructionPage() {
         <div className="mb-xl">
           <Link href="/admin" className="text-secondary">← Back to Dashboard</Link>
           <h1 className="mt-md">Create New Instruction</h1>
+          {prePopulated && (
+            <p className="text-muted mt-sm" style={{ fontSize: "0.9rem" }}>
+              📍 Mission location pre-filled from your selection
+            </p>
+          )}
         </div>
 
         <form onSubmit={handleSubmit}>
@@ -236,6 +287,7 @@ export default function NewInstructionPage() {
                 onChange={(e) => setTitle(e.target.value)}
                 placeholder="e.g., SLKR Counter Team"
                 required
+                autoFocus={prePopulated}
               />
             </div>
 

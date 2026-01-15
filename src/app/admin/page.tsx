@@ -2,8 +2,9 @@
 
 import { useSession, signOut } from "next-auth/react";
 import { useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import Link from "next/link";
+import { useInstructionModal } from "@/components/InstructionModalContext";
 
 interface Instruction {
   id: string;
@@ -42,7 +43,18 @@ export default function AdminDashboard() {
   const [userError, setUserError] = useState("");
   const [savingUser, setSavingUser] = useState(false);
 
+
   const isSuperAdmin = session?.user?.role === "super_admin";
+  const { openModal } = useInstructionModal();
+
+  // Callback to refresh instructions after modal save
+  const refreshInstructions = useCallback(async () => {
+    const res = await fetch("/api/instructions");
+    if (res.ok) {
+      const data = await res.json();
+      setInstructions(data);
+    }
+  }, []);
 
   useEffect(() => {
     if (status === "unauthenticated") {
@@ -222,9 +234,9 @@ export default function AdminDashboard() {
               {isSuperAdmin && <span className="badge badge-auto" style={{ marginLeft: "0.5rem" }}>Super Admin</span>}
             </p>
           </div>
-          <Link href="/admin/instructions/new" className="btn btn-primary">
+          <button onClick={() => openModal(undefined, refreshInstructions)} className="btn btn-primary">
             + Create Instruction
-          </Link>
+          </button>
         </div>
 
         {/* Stats Cards */}
