@@ -2,7 +2,7 @@
 
 import { useSession } from "next-auth/react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useState, Suspense } from "react";
 import Link from "next/link";
 import { PHASES, PLANETS } from "@/lib/roteData";
 
@@ -14,6 +14,18 @@ interface Unit {
 }
 
 export default function NewInstructionPage() {
+  return (
+    <Suspense fallback={
+      <div className="flex-center" style={{ minHeight: "100vh" }}>
+        <p>Loading...</p>
+      </div>
+    }>
+      <NewInstructionContent />
+    </Suspense>
+  );
+}
+
+function NewInstructionContent() {
   const { status } = useSession();
   const router = useRouter();
   const searchParams = useSearchParams();
